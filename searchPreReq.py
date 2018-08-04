@@ -22,9 +22,9 @@ def searchPreReq(currentCourses):
 			#splits the line based on commas
 			lines = line.split(",")
 			unitCode = lines.pop(0)
-			#unitName = lines.pop(0)
-			lines.pop(0)
-			lines.pop(0)
+			unitName = lines.pop(0)
+			unitFaculty = lines.pop(0)
+			unitSchool = lines.pop(0)
 			#creates an empty array for the requirement courses
 			newCourses = []
 			for preReq in lines:
@@ -47,6 +47,6 @@ def searchPreReq(currentCourses):
 
 
 		
-CCList = ["PSYC2001","PSYC2081","PSYC1011","PSYC1001","PSYC1111"] 
+CCList = ["COMP1917"] 
 print searchPreReq(CCList)
 
