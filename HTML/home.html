@@ -1,23 +1,32 @@
 <html>
 	<head>
 		<title>Course Selection</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script language="JavaScript">
 		//INSERT GLOBAL FUNCTIONS HERE
 		</script>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
+	
+	
 	<div id="searchBar">
 		
 		<a class="active" href="#home">Home</a>
 		<a href="#profile">Profile</a>
 		<a href="#recommend">Recommendations</a>
-		<form name = "search">
-		<input type="text" placeholder="Search.." name="searchText">
+		
+		<form name = "search" autocomplete="off" action="/action_page.php">
+		<div class="autocomplete" >
+			<input id="myInput" type="text" name="myCountry" placeholder="Country">
+		</div>
 		</form>
 	</div> 
-	<script>
-	//INSERT LOCAL FUNCTIONS HERE
-	</script>	
+	
+<form autocomplete="off" action="/action_page.php">
+  
+</form>
+<script src="js/autocomplete.js"></script>
+
 	</body>
 </html>				
