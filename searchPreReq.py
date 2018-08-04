@@ -1,3 +1,41 @@
+def main():
+	nLoops = input("How many subjects do you want to add? ")
+	array = []
+	for x in range(nLoops):
+		subject = newCourseAndGrade(raw_input("Enter the course id:"),raw_input("Enter your mark in the form of HD, D, C, or P: "))
+		array.append(subject)
+	array.sort(key=lambda x: x.mark, reverse = True) # sort by mark
+	for elements in array:
+		print elements.unitCode
+		getRecords(elements.unitCode)
+
+class courseAndGrade(object):
+	unitCode = ""
+	mark = 0
+
+def newCourseAndGrade(unitCode, grade):
+	course = courseAndGrade()
+	course.unitCode = unitCode
+	if grade == "HD":
+		course.mark = 1
+	elif grade == "D":
+		course.mark = 0.7
+	elif grade == "C":
+		course.mark = 0.4
+	elif grade == "P":
+		course.mark = 0.1
+	else:
+		course.mark = 0
+	return course
+	
+def getRecords(course):
+	#SORT UNITS BASED ON GRADE	
+	possible = getFuturePossibleCourses(course)
+	for item in possible[0]:
+		print "<p>" + item + "</p>"
+	#for item in possible[1]:
+	#	print "<p style=\"color:red\">" + item + "<br>"
+
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
 	for course in prereqs:
@@ -16,8 +54,24 @@ def checkOptions(prereqs,taken):
 	return False
 	
 
+# given a list of prereqs for a course, do taken courses satisfy these prereqs
+def checkOptions(prereqs,taken):
+	for course in prereqs:
+		if "|" in course:
+			conjunctions = course.split("|")
+			flag = True
+			for element in conjunctions:
+				if element not in taken:
+					flag = False
+					break
+			if flag is not False:
+				return True
+		else:
+			if course in taken:
+				return True
+	return False
 
-def searchPreReq(currentCourses):
+def getFuturePossibleCourses(currentCourses):
 	#matches is a list of the unit codes that are possibilities.
 	#This list is filled as the code iterates
 	matches = []
@@ -51,7 +105,5 @@ def searchPreReq(currentCourses):
 	else:	
 		return [[], []]
 		
-CCList = ["COMP1917"] 
-for item in searchPreReq(CCList)[0]:
-	print item,
-
+		
+main()
