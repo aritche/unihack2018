@@ -37,8 +37,7 @@ def searchPreReq(currentCourses):
 
 			# if no prereqs, course is a match
 			if len(prereqs) == 0:
-				#matches.append(unitCode)
-				a = 2
+				matches.append(unitCode)
 			# if exist prereqs, further process matches
 			else:
 				prereqs[-1] = prereqs[-1].strip('\n')
@@ -54,6 +53,6 @@ def searchPreReq(currentCourses):
 
 
 		
-CCList = ["COMP1917"] 
+CCList = ["COMP3411"] 
 print searchPreReq(CCList)
 
