@@ -4,6 +4,7 @@
 import cgi 
 
 base_url="test"
+courses=[]
 
 def main():
 	# print the header and start the body
@@ -14,14 +15,22 @@ def main():
 	<body>
 	"""
 	
-	searchBar()
 
+	searched = True
 	form = cgi.FieldStorage()
 	if "searched_for" not in form:
-		print "Search for something"
+		searched = False
 	else:
-		course = form["searched_for"].value
-		getRecords(course)
+		courses.append(form["searched_for"].value)
+		if "prevCourse" in form:
+			prevCourses = form["prevCourse"].value
+			courses.extend(prevCourses.split(','))
+			courses[-1] = courses[-1].replace('"', '')
+	searchBar()
+	
+	if searched == True:
+		printSelectedCourses() 
+		getRecords()
 
 	# end the body and the html
 	print """
@@ -29,8 +38,19 @@ def main():
 	</html>
 	"""
 
-def getRecords(course):
-	possible = getFuturePossibleCourses([course])
+def printSelectedCourses():
+	print "<strong>COMPLETED SUBJECTS:</strong>"
+	print "<div id=\"selected_courses\">"
+	print "<ul>"
+	for course in courses:
+		print "<li>" + course + "</li>"
+	print "</ul>"
+	print "</div>"
+	print "<hr>"
+
+def getRecords():
+	print "<strong>RECOMMENDATIONS</strong>"
+	possible = getFuturePossibleCourses(courses)
 	for item in possible[0]:
 		print "<p>" + item + "</p>"
 	for item in possible[1]:
@@ -110,8 +130,13 @@ def searchBar():
 		<div id="search_wrapper">
 			<form id="search-form">
 				<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
+	"""
+	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
+
+	print """
 			</form>
 		</div>
 	"""
+
 
 main()
