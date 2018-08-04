@@ -1,13 +1,21 @@
-def checkOptions(course,courseList):
-	for NCcheck in course:
-			if "|" in NCcheck:
-				subjects = NCcheck.split("|")
-				for element in subjects:
-					if element not in courseList:
-						return False
-			elif NCcheck not in courseList:
-				return False
-	return True
+# given a list of prereqs for a course, do taken courses satisfy these prereqs
+def checkOptions(prereqs,taken):
+	for course in prereqs:
+		if "|" in course:
+			conjunctions = course.split("|")
+			flag = True
+			for element in conjunctions:
+				if element not in taken:
+					flag = False
+					break
+			if flag is not False:
+				return True
+		else:
+			if course in taken:
+				return True
+	return False
+	
+
 
 def searchPreReq(currentCourses):
 	#matches is a list of the unit codes that are possibilities.
@@ -16,26 +24,25 @@ def searchPreReq(currentCourses):
 	#opens the file to read
 	with open("db.txt","r") as file:
 		#creates the object data which is the text file in a different format
-		data = file.readlines()
+		allCourses = file.readlines()
 		#Does a for loop based on each line of the data
-		for line in data:
-			#splits the line based on commas
-			lines = line.split(",")
-			unitCode = lines.pop(0)
-			unitName = lines.pop(0)
-			unitFaculty = lines.pop(0)
-			unitSchool = lines.pop(0)
-			#creates an empty array for the requirement courses
-			newCourses = []
-			for preReq in lines:
-				#clears the white spaces
-				preReq = preReq.rstrip()
-				#adds the courses to the array new courses
-				newCourses.append(preReq)
-				if newCourses[0]=="":
-					matches.append(unitCode)
-				#Goes to the checkOptions code and cofirms matches
-				elif checkOptions(newCourses,currentCourses) == True:
+		for course in allCourses:
+			#splits the course based on commas
+			fields = course.split(",")
+			unitCode = fields[0]
+			unitName = fields[1]
+			unitFaculty = fields[2]
+			unitSchool = fields[3]
+			prereqs = fields[4:]
+
+			# if no prereqs, course is a match
+			if len(prereqs) == 0:
+				#matches.append(unitCode)
+				a = 2
+			# if exist prereqs, further process matches
+			else:
+				prereqs[-1] = prereqs[-1].strip('\n')
+				if checkOptions(prereqs,currentCourses) == True:
 					matches.append(unitCode)
 						
 	if (len(matches)!=0):
