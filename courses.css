@@ -1,6 +1,9 @@
 body{
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #feffd2;
 }
 
 input[type="text"]
@@ -11,4 +14,10 @@ input[type="text"]
 
 input{
 	border: 6px solid lightblue;
+}
+
+#search_wrapper{
+	text-align: center;
+	background-color: #dbf0f6;
+	padding: 8px;
 }

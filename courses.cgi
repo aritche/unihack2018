@@ -34,7 +34,7 @@ def getRecords(course):
 	for item in possible[0]:
 		print "<p>" + item + "</p>"
 	for item in possible[1]:
-		print "<p style=\"color:red\">" + item + "<br>"
+		print "<p style=\"color:red\">" + item + "</p><br>"
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
@@ -107,9 +107,11 @@ def getFuturePossibleCourses(currentCourses):
 
 def searchBar():
 	print """	
-		<form id="search-form">
-			<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
-		</form>
+		<div id="search_wrapper">
+			<form id="search-form">
+				<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
+			</form>
+		</div>
 	"""
 
 main()
