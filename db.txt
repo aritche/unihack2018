@@ -179,7 +179,6 @@ BIOM9650,Biosensors and transducers,Faculty of Engineering,Graduate School of Bi
 BIOM9660,Implantable Bionics,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM9701,Dynamics of the Cardiovascular System,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM9914,Masters Project,Faculty of Engineering,Graduate School of Biomedical Engineering
-BIOS6692
 BIOT4073,Biotechnology Honours Full-Time,Faculty of Science,School of Biotechnology and Biomolecular Science
 BLDG0007,International Construction Study Trip,Built Environment,Built Environment
 BLDG1011,Low Rise Building Construction,Built Environment,Building Construction Management Program
