@@ -21,6 +21,7 @@ def searchPreReq(currentCourses):
 	#matches is a list of the unit codes that are possibilities.
 	#This list is filled as the code iterates
 	matches = []
+	noPrereqs = []
 	#opens the file to read
 	with open("db.txt","r") as file:
 		#creates the object data which is the text file in a different format
@@ -37,7 +38,7 @@ def searchPreReq(currentCourses):
 
 			# if no prereqs, course is a match
 			if len(prereqs) == 0:
-				matches.append(course)
+				noPrereqs.append(course)
 			# if exist prereqs, further process matches
 			else:
 				prereqs[-1] = prereqs[-1].strip('\n')
@@ -45,10 +46,12 @@ def searchPreReq(currentCourses):
 					matches.append(course)
 						
 	if (len(matches)!=0):
-		return list(set(matches)) 
+		return [matches, noPrereqs]
+		#return list(set(matches)) 
 	else:	
-		return []
+		return [[], []]
 		
-CCList = ["COMP3411"] 
-print searchPreReq(CCList)
+CCList = ["COMP1917"] 
+for item in searchPreReq(CCList)[0]:
+	print item,
 
