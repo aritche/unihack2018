@@ -37,21 +37,17 @@ def searchPreReq(currentCourses):
 
 			# if no prereqs, course is a match
 			if len(prereqs) == 0:
-				matches.append(unitCode)
+				matches.append(course)
 			# if exist prereqs, further process matches
 			else:
 				prereqs[-1] = prereqs[-1].strip('\n')
 				if checkOptions(prereqs,currentCourses) == True:
-					matches.append(unitCode)
+					matches.append(course)
 						
 	if (len(matches)!=0):
 		return list(set(matches)) 
 	else:	
-		return "No correlation"
-
-
-
-
+		return []
 		
 CCList = ["COMP3411"] 
 print searchPreReq(CCList)
