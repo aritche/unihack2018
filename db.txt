@@ -1,0 +1,6 @@
+PSYC3051,Faculty of Science,School of Psychology,PSYC2001|PSYC2081
+PSYC2001,Faculty of Science,School of Psychology,PSYC1001|PSYC1011|PSYC1111
+PSYC2081,Faculty of Science,School of Psychology,PSYC1011|PSYC1001
+PSYC1111,Faculty of Science,School of Psychology,
+PSYC1001,Faculty of Science,School of Psychology,
+PSYC1011,Faculty of Science,School of Psychology,
