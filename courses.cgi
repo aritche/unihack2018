@@ -12,7 +12,11 @@ def main():
 	print """
 	<html>
 	<head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
             <link rel="stylesheet" href="courses.css" type="text/css"></style>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/jc/bootstrap.min.js"></script>
         </head>
 	<body>
 	"""
@@ -53,22 +57,53 @@ def main():
 	"""
 
 def printSelectedCourses():
-	print "<strong>COMPLETED SUBJECTS:</strong>"
-	print "<div id=\"selected_courses\">"
-	print "<ul>"
+	print """
+            <div class="container">
+                <strong>COMPLETED SUBJECTS:</strong>
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        """
 	for course in courses:
-		print "<li>" + course + "</li>"
-	print "</ul>"
+                print "<tr>"
+		print "<td>" + course + "</td>"
+                print "</tr>"
+	print "</tbody>"
+        print "</table>"
 	print "</div>"
 	print "<hr>"
 
 def getRecords():
-	print "<strong>RECOMMENDATIONS</strong>"
+        print """
+            <div class="container">
+	        <strong>RECOMMENDATIONS</strong>
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        """
+
 	possible = getFuturePossibleCourses(courses)
 	for item in possible[0]:
-		print "<p>" + item + "</p>"
+                print "<tr>"
+		print "<td>" + item + "</td>"
+                print "</tr>"
+        print """
+                </tbody>
+                <table class="table table-dark table-hover">
+                    <tbody>
+        """
 	for item in possible[1]:
-		print "<p style=\"color:red\">" + item + "</p><br>"
+                print "<tr>"
+		print "<td><p style=\"color:red\">" + item + "</p></td>"
+                print "</tr>"
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
@@ -140,10 +175,16 @@ def getFuturePossibleCourses(currentCourses):
 		return [[], []]
 
 def searchBar():
-	print """	
-		<div id="search_wrapper">
-			<form id="search-form">
-				<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
+	#print """	
+	#	<div id="search_wrapper">
+        print """
+                <div class="container">
+                <div class="jumbotron">
+                    <h1>Clever Course</h1>
+                </div>
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<form class="form-inline" id="search-form">
+				<input class="form-control mr-sm-2 type="text" name="searched_for" placeholder="Enter a subject...">
 				<select name="mark">
 					<option value="HD">HD</option>
 					<option value="D">D</option>
@@ -151,13 +192,14 @@ def searchBar():
 					<option value="P">P</option>
 					<option value="FAIL">Fail</option>
 				</select>
-				<input type="submit" value="Add">
+				<button class="btn btn-success" type="submit" value="Add">Search</button>
 	"""
 	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
 
 	print """
 			</form>
-		</div>
+		</nav>
+                </div>
 	"""
 
 
