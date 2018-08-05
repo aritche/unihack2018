@@ -5,6 +5,7 @@ import cgi
 
 base_url="test"
 courses=[]
+marks=[]
 
 def main():
 	# print the header and start the body
@@ -28,17 +29,18 @@ def main():
 	else:
 		# get all entered courses so far
 		courses.append(form["searched_for"].value)
-		if "prevCourse" in form:
-			prevCourses = form["prevCourse"].value
+		if "prevCourses" in form:
+			prevCourses = form["prevCourses"].value
 			courses.extend(prevCourses.split(','))
 			courses[-1] = courses[-1].replace('"', '')
 		
 		# check if they entered a mark
 		if "mark" in form:
-			mark = form["mark"].value
-			print mark
-		else:
-			mark = ""
+			marks.append(form["mark"].value)
+			if "prevMarks" in form:
+				prevMarks = form["prevMarks"].value
+				marks.extend(prevMarks.split(','))
+				marks[-1] = marks[-1].replace('"', '')
 
 	searchBar()
 	
@@ -56,8 +58,8 @@ def printSelectedCourses():
 	print "<strong>COMPLETED SUBJECTS:</strong>"
 	print "<div id=\"selected_courses\">"
 	print "<ul>"
-	for course in courses:
-		print "<li>" + course + "</li>"
+	for x in range(0,len(courses)):
+		print "<li>" + courses[x] + ", " + marks[x] + "</li>"
 	print "</ul>"
 	print "</div>"
 	print "<hr>"
@@ -151,9 +153,11 @@ def searchBar():
 					<option value="P">P</option>
 					<option value="FAIL">Fail</option>
 				</select>
-				<input type="submit" value="Add">
 	"""
-	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
+	print "<input type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
+	print "<input type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
+	#print "<input type='hidden' name='prevMarks' value=\"" + (",").join(marks) + '">' 
+	print '<input type="submit" value="Add">'
 
 	print """
 			</form>
