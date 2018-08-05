@@ -11,7 +11,9 @@ def main():
 	print "Content-type:text/html\r\n\r\n"
 	print """
 	<html>
-	<head><link rel="stylesheet" href="courses.css" type="text/css"></style></head>
+	<head>
+            <link rel="stylesheet" href="courses.css" type="text/css"></style>
+        </head>
 	<body>
 	"""
 	
