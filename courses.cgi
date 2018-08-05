@@ -18,14 +18,26 @@ def main():
 
 	searched = True
 	form = cgi.FieldStorage()
+
+	# if they haven't added a course yet
 	if "searched_for" not in form:
 		searched = False
+	# if they have added a course
 	else:
+		# get all entered courses so far
 		courses.append(form["searched_for"].value)
 		if "prevCourse" in form:
 			prevCourses = form["prevCourse"].value
 			courses.extend(prevCourses.split(','))
 			courses[-1] = courses[-1].replace('"', '')
+		
+		# check if they entered a mark
+		if "mark" in form:
+			mark = form["mark"].value
+			print mark
+		else:
+			mark = ""
+
 	searchBar()
 	
 	if searched == True:
@@ -130,6 +142,14 @@ def searchBar():
 		<div id="search_wrapper">
 			<form id="search-form">
 				<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
+				<select name="mark">
+					<option value="HD">HD</option>
+					<option value="D">D</option>
+					<option value="C">C</option>
+					<option value="P">P</option>
+					<option value="FAIL">Fail</option>
+				</select>
+				<input type="submit" value="Add">
 	"""
 	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
 
