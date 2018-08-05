@@ -17,6 +17,7 @@ def main():
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
             <link rel="stylesheet" href="courses.css" type="text/css"></style>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/jc/bootstrap.min.js"></script>
         </head>
 	<body>
@@ -89,6 +90,7 @@ def getRecords():
                     <thead>
                         <tr>
                             <th>Course</th>
+                            <th>Information</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -96,8 +98,10 @@ def getRecords():
 
 	possible = getFuturePossibleCourses(courses)
 	for item in possible[0]:
+                splitItem=item.split(',')
                 print "<tr>"
-		print "<td>" + item + "</td>"
+		print "<td>" + splitItem[0] + "</td>"
+                print "<td>" + splitItem[1] + "</td>"
                 print "</tr>"
         print """
                 </tbody>
@@ -105,8 +109,10 @@ def getRecords():
                     <tbody>
         """
 	for item in possible[1]:
+                splitItem=item.split(',')
                 print "<tr>"
-		print "<td><p style=\"color:red\">" + item + "</p></td>"
+		print "<td><p style=\"color:red\">" + splitItem[0] + "</p></td>"
+                print "<td><p style=\"color:red\">" + splitItem[1] + "</p></td>"
                 print "</tr>"
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
