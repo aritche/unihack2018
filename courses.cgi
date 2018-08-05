@@ -85,7 +85,7 @@ def printSelectedCourses():
 def getRecords():
         print """
             <div class="container">
-	        <strong>RECOMMENDATIONS</strong>
+	        <strong>RECOMMENDED</strong>
                 <table class="table table-dark table-hover">
                     <thead>
                         <tr>
@@ -101,7 +101,10 @@ def getRecords():
                 splitItem=item.split(',')
                 print "<tr>"
 		print "<td>" + splitItem[0] + "</td>"
-                print "<td>" + splitItem[1] + "</td>"
+                print "<td>"
+                for x in range(1,len(splitItem)):
+                    print splitItem[x]
+                print "</td>"
                 print "</tr>"
         print """
                 </tbody>
@@ -112,8 +115,14 @@ def getRecords():
                 splitItem=item.split(',')
                 print "<tr>"
 		print "<td><p style=\"color:red\">" + splitItem[0] + "</p></td>"
-                print "<td><p style=\"color:red\">" + splitItem[1] + "</p></td>"
+                print "<td><p style=\"color:red\">" 
+                for x in range(1,len(splitItem)):
+                    print splitItem[x]
+                print "</p></td>"
                 print "</tr>"
+        print "</tbody>"
+        print "</table>"
+        print "</div>"
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
