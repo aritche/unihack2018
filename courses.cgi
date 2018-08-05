@@ -5,6 +5,7 @@ import cgi
 
 base_url="test"
 courses=[]
+marks=[]
 
 def main():
 	# print the header and start the body
@@ -32,17 +33,18 @@ def main():
 	else:
 		# get all entered courses so far
 		courses.append(form["searched_for"].value)
-		if "prevCourse" in form:
-			prevCourses = form["prevCourse"].value
+		if "prevCourses" in form:
+			prevCourses = form["prevCourses"].value
 			courses.extend(prevCourses.split(','))
 			courses[-1] = courses[-1].replace('"', '')
 		
 		# check if they entered a mark
 		if "mark" in form:
-			mark = form["mark"].value
-			print mark
-		else:
-			mark = ""
+			marks.append(form["mark"].value)
+			if "prevMarks" in form:
+				prevMarks = form["prevMarks"].value
+				marks.extend(prevMarks.split(','))
+				marks[-1] = marks[-1].replace('"', '')
 
 	searchBar()
 	
@@ -63,14 +65,16 @@ def printSelectedCourses():
                 <table class="table table-dark table-hover">
                     <thead>
                         <tr>
+                            <th>Marks</th>
                             <th>Course</th>
                         </tr>
                     </thead>
                     <tbody>
         """
-	for course in courses:
+	for x in range(0,len(courses)):
                 print "<tr>"
-		print "<td>" + course + "</td>"
+                print "<td>" + marks[x] + "</td>"
+		print "<td>" + courses[x] + "</td>"
                 print "</tr>"
 	print "</tbody>"
         print "</table>"
@@ -175,8 +179,6 @@ def getFuturePossibleCourses(currentCourses):
 		return [[], []]
 
 def searchBar():
-	#print """	
-	#	<div id="search_wrapper">
         print """
                 <div class="container">
                 <div class="jumbotron">
@@ -194,8 +196,8 @@ def searchBar():
 				</select>
 				<button class="btn btn-success" type="submit" value="Add">Search</button>
 	"""
-	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
-
+	print "<input type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
+	print "<input type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
 	print """
 			</form>
 		</nav>
