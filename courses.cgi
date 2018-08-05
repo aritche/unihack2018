@@ -11,7 +11,14 @@ def main():
 	print "Content-type:text/html\r\n\r\n"
 	print """
 	<html>
-	<head><link rel="stylesheet" href="courses.css" type="text/css"></style></head>
+	<head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="courses.css" type="text/css"></style>
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></scrpt>
+        </head>
 	<body>
 	"""
 	
@@ -126,10 +133,12 @@ def getFuturePossibleCourses(currentCourses):
 		return [[], []]
 
 def searchBar():
-	print """	
-		<div id="search_wrapper">
-			<form id="search-form">
-				<input class='search_bar' type="text" name="searched_for" placeholder="Enter a subject...">
+	#print """	
+	#	<div id="search_wrapper">
+        print """
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<form class="form-inline">
+				<input class="form-control mr-sm-2" type="text" name="searched_for" placeholder="Enter a subject...">
 	"""
 	print "<input type='hidden' name='prevCourse' value=" + (",").join(courses) + "\">" 
 
