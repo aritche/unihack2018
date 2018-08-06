@@ -100,10 +100,11 @@ def getRecords():
 	for item in possible[0]:
                 splitItem=item.split(',')
                 print "<tr>"
-		print "<td>" + splitItem[0] + "</td>"
+		print "<td><a href='http://www.handbook.unsw.edu.au/undergraduate/courses/2018/" + splitItem[0] + ".html'>"+ splitItem[0] + "</a></td>"
+		print "<td>" + splitItem[1] + "</td>"
                 print "<td>"
-                for x in range(1,len(splitItem)):
-                    print splitItem[x]
+                for x in range(2,4):
+			print splitItem[x]
                 print "</td>"
                 print "</tr>"
         print """
@@ -114,9 +115,10 @@ def getRecords():
 	for item in possible[1]:
                 splitItem=item.split(',')
                 print "<tr>"
-		print "<td><p style=\"color:red\">" + splitItem[0] + "</p></td>"
+		print "<td><a style='color:red'href='http://www.handbook.unsw.edu.au/undergraduate/courses/2018/" + splitItem[0] + ".html'>"+ splitItem[0] + "</a></td>"
+		print "<td style='color:red'>" + splitItem[1] + "</td>"
                 print "<td><p style=\"color:red\">" 
-                for x in range(1,len(splitItem)):
+                for x in range(2,4):
                     print splitItem[x]
                 print "</p></td>"
                 print "</tr>"
