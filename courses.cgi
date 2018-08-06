@@ -96,7 +96,7 @@ def getRecords():
                     <tbody>
         """
 
-	possible = getFuturePossibleCourses(courses)
+	possible = getFuturePossibleCourses()
 	for item in possible[0]:
                 splitItem=item.split(',')
                 print "<tr>"
@@ -156,6 +156,8 @@ def checkOptions(prereqs,taken):
 			conjunctions = course.split("|")
 			flag = True
 			for element in conjunctions:
+				element = element.replace("(", "")
+				element = element.replace(")", "")
 				if element not in taken:
 					flag = False
 					break
@@ -166,7 +168,7 @@ def checkOptions(prereqs,taken):
 				return True
 	return False
 
-def getFuturePossibleCourses(currentCourses):
+def getFuturePossibleCourses():
 	#matches is a list of the unit codes that are possibilities.
 	#This list is filled as the code iterates
 	matches = []
@@ -191,7 +193,7 @@ def getFuturePossibleCourses(currentCourses):
 			# if exist prereqs, further process matches
 			else:
 				prereqs[-1] = prereqs[-1].strip('\n')
-				if checkOptions(prereqs,currentCourses) == True:
+				if checkOptions(prereqs,courses) == True:
 					matches.append(course)
 						
 	if (len(matches)!=0):
