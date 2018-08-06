@@ -7,6 +7,8 @@ base_url="test"
 courses=[]
 marks=[]
 
+coursesInfo=[] # complete records of a course
+
 def main():
 	# print the header and start the body
 	print "Content-type:text/html\r\n\r\n"
@@ -23,7 +25,6 @@ def main():
 	<body>
 	"""
 	
-
 	searched = True
 	form = cgi.FieldStorage()
 
@@ -47,8 +48,11 @@ def main():
 				marks.extend(prevMarks.split(','))
 				marks[-1] = marks[-1].replace('"', '')
 
+	getInfo()
 	searchBar()
 	
+	print(getRank('COMP2911,Engineering Design in Computing,Faculty of Engineering,School of Computer Science and Engineering,COMP1927,COMP2521,MTRN3500\n'))
+
 	if searched == True:
 		printSelectedCourses() 
 		getRecords()
@@ -58,6 +62,49 @@ def main():
 	</body>
 	</html>
 	"""
+
+# given a list of db records, sort them by rank
+def rankCourses(records):
+	ranked = []
+	for record in records:
+		ranked.append([record, getRank(record)])
+	ranked = sorted(ranked, key=lambda x: x[1], reverse=True)
+	
+	rankedWithoutScore = []
+	# remove rank value
+	for item in ranked:
+		rankedWithoutScore.append(item[0])
+	return rankedWithoutScore
+
+# return a rank for a given course record from the db
+# rank depends on completed courses
+def getRank(courseRecord):
+	courseRecord = courseRecord.split(',')
+	school = courseRecord[3]
+
+	# how many times has the student completed courses from this school
+	score = 0
+	for course in coursesInfo:
+		fields = course.split(',')
+		completedSchool = fields[3]
+		if school == completedSchool:
+			score += 1
+
+	return score
+
+# populate coursesInfo array with complete info on a course
+def getInfo():
+	with open("db.txt", "r") as file:
+		allCourses = file.readlines()
+		# for completed course
+		for completedCourse in courses:
+			for courseEntry in allCourses:
+				fields = courseEntry.split(",")
+				unitCode = fields[0]
+				if completedCourse == unitCode:
+					coursesInfo.append(courseEntry)
+					break
+
 
 def printSelectedCourses():
 	print """
@@ -97,6 +144,11 @@ def getRecords():
         """
 
 	possible = getFuturePossibleCourses()
+
+	possible[0] = rankCourses(possible[0])
+	possible[1] = rankCourses(possible[1])
+	
+
 	for item in possible[0]:
                 splitItem=item.split(',')
                 print "<tr>"
@@ -130,6 +182,17 @@ def getRecords():
         print "</table>"
         print "</div>"
 
+def bandToMark(band):
+	if grade == "HD":
+		return 1	
+	elif grade == "D":
+		return 0.7
+	elif grade == "C":
+		return 0.4
+	elif grade == "P":
+		return 0.1
+	else:
+		return 0
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
@@ -237,6 +300,5 @@ def searchBar():
 		</nav>
                 </div>
 	"""
-
 
 main()
