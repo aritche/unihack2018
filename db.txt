@@ -5,12 +5,19 @@ ACCT3563,Issues in Financial Reporting and Analysis,UNSW Business School,School 
 ACCT3583,Management Accounting 2,UNSW Business School,School of Accounting,ACCT2522
 ACCT3585,E-Business: Strategy and Processes,UNSW Business School,School of Accounting,ACCT2522
 ACCT3601,Global Financial Reporting and Analysis,UNSW Business School,School of Accounting,ACCT2542
+ACCT3610,Business Analysis and Valuation,UNSW Business School,School of Accounting,ACCT2542|FINS1613
 ACTL2100,Industrial Training 1 (Co-op),UNSW Business School,School of Risk and Actuarial Studies,ACTL1001
+ACTL3142,Actuarial Data and Analysis,UNSW Business School,School of Risk and Actuarial Studies,ACTL2131|ACTL2111
+ACTL3151,Life Contingencies,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111|ACTL2102
+ACTL3182,Asset-Liability and Derivative Models,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111|ACTL2102
 ADAD0201,Graphics and Contemporary Society,Faculty of Art & Design,School of Art & Design
+ADAD0202,Design Interactivity and Emerging Media,Faculty of Art & Design,School of Art & Design
+ADAD0220,Spatial Design: Retail Exhibition and Hospitality,Faculty of Art & Design,School of Art & Design
 ADAD0222,Unravelling Urban Design,Faculty of Art & Design,School of Art & Design
 ADAD0600,Transmedia Storytelling Studio,Faculty of Art & Design,School of Art & Design
 ADAD1001,Studio Gateway 1,Faculty of Art & Design,School of Art & Design
 ADAD1002,Studio Gateway 2,Faculty of Art & Design,School of Art & Design
+ADAD1100,Communication in Art Design and Media,Faculty of Art & Design,School of Art & Design
 ADAD2400,Introduction to Systems for Interactive Media,Faculty of Art & Design,School of Art & Design
 ADAD2402,Tangible and Embodied Interactions,Faculty of Art & Design,School of Art & Design
 ADAD2405,Creative Thinking Processes,Faculty of Art & Design,School of Art & Design
@@ -24,6 +31,7 @@ AERO3630,Aerodynamics,Faculty of Engineering,School of Mechanical and Manufactur
 AERO4110,Aerospace Design Project A,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,AERO3110
 AERO4120,Aerospace Design Project B,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,AERO4110
 AERO4500,Spacecraft Engineering,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+AERO4620,Dynamics of Aerospace Vehicles Systems and Avioni,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,AERO3660|MMAN3200
 AERO9500,Space Systems Architectures and Orbits,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 AERO9610,The Space Segment,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 ANAT1521,Anatomy for Medical Science,Faculty of Medicine,School of Medical Sciences,BABS1201
@@ -37,16 +45,24 @@ ARCH1162,Construction and Structures 1,Built Environment,Architecture Program
 ARCH1202,Architectural Design Studio 4,Built Environment,Architecture Program,ARCH1201
 ARCH1222,Architectural History and Theory 2,Built Environment,Architecture Program
 ARCH1261,Construction and Structures 2,Built Environment,Architecture Program,ARCH1162
+ARCH1302,Architectural Design Studio 6,Built Environment,Architecture Program,ARCH1202|ARCH1311
 ARCH1322,Architectural History and Theory 3,Built Environment,Architecture Program
 ARCH1390,Digital Representation Studio,Built Environment,Architecture Program,ARCH1101
+ARCH1391,Digital Computation Studio,Built Environment,Architecture Program,ARCH1201|ARCH1390
+ARCH1392,Digital Collaboration Studio,Built Environment,Architecture Program,ARCH1391|ARCH1201
+ARCH1393,Graduation Project,Built Environment,Architecture Program,ARCH1391|ARCH1392
 ARCH1394,Honours Resarch Project 1,Built Environment,Architecture Program
 ARCH1481,Critical Review of Literature,Built Environment,Architecture Program
 ARCH1482,Research Methods,Built Environment,Architecture Program
 ARCH1483,Honours Thesis,Built Environment,Architecture Program
 ARTS1010,The Life of Words,Faculty of Arts and Social Sciences,School of the Arts and Media
+ARTS1030,Forms of Writing: Literature Genre Culture,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1031,Reading Through Time: Literature from the Renaissance to Postmodernity,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1032,The Literature Laboratory: Writing Beyond Limits,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1060,Introduction to Film Studies,Faculty of Arts and Social Sciences,School of the Arts and Media
+ARTS1062,Hollywood Film: Industry Technology Aesthetics,Faculty of Arts and Social Sciences,School of the Arts and Media
+ARTS1090,Media Culture and Everyday Life,Faculty of Arts and Social Sciences,School of the Arts and Media
+ARTS1091,Media Society Politics,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1120,Experiencing Theatre,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1121,The Life of Performance,Faculty of Arts and Social Sciences,School of the Arts and Media
 ARTS1190,Australian Legends: Introducing Australian Studies,Faculty of Arts and Social Sciences,School of Humanities and Languages
@@ -54,7 +70,10 @@ ARTS1210,Concepts of Asia,Faculty of Arts and Social Sciences,School of Humaniti
 ARTS1211,Australia's Asian Context,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1240,Environment and Society,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1241,Environmental Advocacy and Activism,Faculty of Arts and Social Sciences,School of Humanities and Languages
+ARTS1270,Global History: Exploring the First Globalization 15th-19th Century,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1271,History of the Present: The World since 1900,Faculty of Arts and Social Sciences,School of Humanities and Languages
+ARTS1360,Introducing Moral Social & Political Philosophy,Faculty of Arts and Social Sciences,School of Humanities and Languages
+ARTS1361,Philosophy Knowledge Reality,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1362,Critical Thinking for Today's World,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1450,Introductory Chinese A for Non-Background Students,Faculty of Arts and Social Sciences,School of Humanities and Languages
 ARTS1452,Introductory Chinese for Background Speakers A,Faculty of Arts and Social Sciences,School of Humanities and Languages
@@ -104,6 +123,7 @@ AVIA1401,Introduction to Human Factors,Faculty of Science,School of Aviation
 AVIA1901,Aviation Transport Economics,Faculty of Science,School of Aviation
 AVIA1902,Airline Financial Analysis and Decision Support,Faculty of Science,School of Aviation
 AVIA2014,Flight Operations 2,Faculty of Science,School of Aviation
+AVIA2101,Baggage Handling System Design Technology and Operations,Faculty of Science,School of Aviation
 AVIA2401,Aviation Law and Regulations,Faculty of Science,School of Aviation
 AVIA2501,Airline Marketing Strategies,Faculty of Science,School of Aviation
 AVIA2601,Aviation Operations Research,Faculty of Science,School of Aviation
@@ -118,6 +138,7 @@ AVIA3301,Simulation Application and Air Traffic Manangement,Faculty of Science,S
 AVIA3401,Aviation Safety and Resource Management,Faculty of Science,School of Aviation
 AVIA3410,Advanced Law and Regulation in Aviation,Faculty of Science,School of Aviation,AVIA2401,AVIA2013
 AVIA3900,Aviation and Sustainable Tourism,Faculty of Science,School of Aviation
+BABS1201,Molecules Cells and Genes,Faculty of Science,School of Biotechnology and Biomolecular Science
 BABS1202,Applied Biomolecular Sciences,Faculty of Science,School of Biotechnology and Biomolecular Science
 BABS2011,Current Trends in Biotechnology,Faculty of Science,School of Biotechnology and Biomolecular Science,BABS1201,BABS1202
 BABS2204,Genetics,Faculty of Science,School of Biotechnology and Biomolecular Science,BABS1201
@@ -126,7 +147,18 @@ BABS3071,Commercial Biotechnology,Faculty of Science,School of Biotechnology and
 BABS3151,Human Molecular Genetics and Disease,Faculty of Science,School of Biotechnology and Biomolecular Science,BABS2204,BABS2264
 BABS3200,Synthetic Biology,Faculty of Science,School of Biotechnology and Biomolecular Science
 BABS3281,Molecular Frontiers,Faculty of Science,School of Biotechnology and Biomolecular Science,BIOC2201
+BABS3291,Genes Genomes and Evolution,Faculty of Science,School of Biotechnology and Biomolecular Science,BABS2204,BABS2264
 BABS3301,Biomolecular Science Laboratory Project (Advanced),Faculty of Science,School of Biotechnology and Biomolecular Science
+BEES0006,Special Program in Biological Earth and Environmental Sciences - Undergraduate 6 units of credit,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES0010,Australian Environment Wildlife and Conservation,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES2041,Data Analysis for Life and Earth Sciences,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES4514,BEES Honours - 24uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES4516,BEES Honours - 12uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES4518,BEES Honours - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES5041,Data Analysis: Env Sc & Mgt,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES6601,An Introduction to the Sydney Environment,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES6692,Advanced Underwater Field Ecology,Faculty of Science,School of Biological Earth & Environmental Sciences
+BEES6800,The Science of Science Communication,Faculty of Science,School of Biological Earth & Environmental Sciences
 BENV0001,Fabrication Fundamentals,Built Environment,Built Environment
 BENV1043,Multimedia in Design Presentation,Built Environment,Architecture Program
 BENV2000,Re-enchanting the City: Designing the Human Habitat,Built Environment,Built Environment
@@ -146,11 +178,17 @@ BENV4121,Spatial Policy,Built Environment,Planning and Urban Development
 BENV6001,Street Life Studies: Sydney Phnom Penh,Built Environment,Built Environment
 BINF2010,Introduction to Bioinformatics,Faculty of Engineering,School of Computer Science and Engineering,BABS1201
 BINF3020,Computational Bioinformatics,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
+BINF4111,Bioinformatics Engineering Design Project B,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
+BINF6112,Computational Biology Engineering Design Workshop,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
+BIOC3261,Human Biochemistry,Faculty of Science,School of Biotechnology and Biomolecular Science,BIOC2101|BIOC2201
+BIOC3271,Molecular Cell Biology 2,Faculty of Science,School of Biotechnology and Biomolecular Science,BIOC2101|BIOC2201
 BIOC4103,Genetics 4 Honours Full-Time,Faculty of Science,School of Biotechnology and Biomolecular Science
 BIOC4109,Genetics Honours (PT),Faculty of Science,School of Biotechnology and Biomolecular Science
 BIOC4318,Biochemistry 4 Honours Full-Time,Faculty of Science,School of Biotechnology and Biomolecular Science
 BIOC4428,Molecular Biology 4 Honours Full-Time,Faculty of Science,School of Biotechnology and Biomolecular Science
 BIOM1010,Engineering in Medicine and Biology,Faculty of Engineering,Graduate School of Biomedical Engineering
+BIOM5001,Thesis Part A (MECH MTRN),Faculty of Engineering,Graduate School of Biomedical Engineering
+BIOM5003,Thesis Part B (MECH MTRN),Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM5904,Honours Research Project B for BE(Soft)/MBiomedE Students,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM5909,Thesis Part A (Comp 3U),Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM5910,Thesis Part A,Faculty of Engineering,Graduate School of Biomedical Engineering
@@ -178,7 +216,23 @@ BIOM9640,Biomedical instrumentation,Faculty of Engineering,Graduate School of Bi
 BIOM9650,Biosensors and transducers,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM9660,Implantable Bionics,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM9701,Dynamics of the Cardiovascular System,Faculty of Engineering,Graduate School of Biomedical Engineering
+BIOM9711,Modelling Organs Tissues and Devices,Faculty of Engineering,Graduate School of Biomedical Engineering
 BIOM9914,Masters Project,Faculty of Engineering,Graduate School of Biomedical Engineering
+BIOS1101,Evolutionary and Functional Biology,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS1301,Ecology sustainability and environmental science,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS2011,Evolutionary and Physiological Ecology,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS2031,Biology of Invertebrates,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS2051,Flowering Plants,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS2061,Vertebrate Zoology,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS2123,Ecosystem Conservation and Management,Faculty of Science,School of Biological Earth & Environmental Sciences,BIOS1301
+BIOS2500,Evolution and the Modern World,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS3011,Animal Behaviour,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS3061,Plant Ecology,Faculty of Science,School of Biological Earth & Environmental Sciences,BIOS2011
+BIOS3091,Marine and Aquatic Ecology,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS3123,Conservation in Practice,Faculty of Science,School of Biological Earth & Environmental Sciences
+BIOS3171,Evolution,Faculty of Science,School of Biological Earth & Environmental Sciences,BIOS2011
+BIOS3221,Assembling the Tree of Life,Faculty of Science,School of Biological Earth & Environmental Sciences,BIOS1101
+BIOS6671,Biodiversity and Conservation of Natural Resources,Faculty of Science,School of Biological Earth & Environmental Sciences
 BIOT4073,Biotechnology Honours Full-Time,Faculty of Science,School of Biotechnology and Biomolecular Science
 BLDG0007,International Construction Study Trip,Built Environment,Built Environment
 BLDG1011,Low Rise Building Construction,Built Environment,Building Construction Management Program
@@ -194,6 +248,7 @@ BLDG2012,Construction & Property Law,Built Environment,Building Construction Man
 BLDG2013,Construction Estimating,Built Environment,Building Construction Management Program
 BLDG2023,Construction Planning,Built Environment,Building Construction Management Program
 BLDG3011,Organisational & People Management in Construction,Built Environment,Building Construction Management Program
+BLDG3012,Risk Health & Safety Management,Built Environment,Building Construction Management Program
 BLDG3021,Property Development,Built Environment,Building Construction Management Program,BLDG2013
 BLDG3023,Construction Business Strategy & Entrepreneurship,Built Environment,Building Construction Management Program
 BLDG4018,Building Appraisal & Land Economics,Built Environment,Building Construction Management Program
@@ -220,10 +275,13 @@ CEIC4201,Industrial Experience,Faculty of Engineering,School of Chemical Enginee
 CEIC6004,Advanced Polymers,Faculty of Engineering,School of Chemical Engineering,POLY3000
 CEIC6711,Complex Fluids Microstructure and Rheology,Faculty of Engineering,School of Chemical Engineering
 CHEM1001,Introductory Chemistry,Faculty of Science,School of Chemistry
+CHEM1011,Chemistry A: Atoms Molecules and Energy,Faculty of Science,School of Chemistry
+CHEM1031,Higher Chemistry A: Atoms Molecules and Energy,Faculty of Science,School of Chemistry
 CHEM1811,Engineering Chemistry 1A,Faculty of Science,School of Chemistry
 CHEM1821,Engineering Chemistry 1B,Faculty of Science,School of Chemistry,CHEM1811
 CHEM2021,Organic Chemistry: Mechanisms and Biomolecules,Faculty of Science,School of Chemistry,CHEM2041
 CHEM2031,Inorganic Chemistry: The Elements,Faculty of Science,School of Chemistry,CHEM2041
+CHEM3011,Physical Chemistry: MaterialsStructure & Function,Faculty of Science,School of Chemistry,CHEM2011,NANO2002
 CHEM3021,Organic Chemistry: Strategies For Synthesis,Faculty of Science,School of Chemistry,CHEM2021
 CHEM3031,Inorganic Chemistry: Transition Metals & Complexes,Faculty of Science,School of Chemistry,CHEM2031,CHEM2839
 CHEM3998,Special Project in Chemistry 2,Faculty of Science,School of Chemistry
@@ -239,15 +297,21 @@ CHEM4524,Chemistry Honours Project 24 UOC,Faculty of Science,School of Chemistry
 CHEM6041,Analytical Chemistry : Frontier Techniques,Faculty of Science,School of Chemistry,CHEM2041
 CHEN6701,Advanced Reaction Engineering,Faculty of Engineering,School of Chemical Engineering
 CHEN6703,Advanced Particle Systems Engineering,Faculty of Engineering,School of Chemical Engineering
+CLIM1001,Introduction to Climate Change,Faculty of Science,School of Biological Earth & Environmental Sciences
+CLIM3001,Climate Systems Science,Faculty of Science,School of Biological Earth & Environmental Sciences,CLIM2001,PHYS2801,GEOS2711,MATH2241
 CODE1110,Computational Design Theory 1,Built Environment,Built Environment
 CODE1161,Communication and Visualisation,Built Environment,Built Environment
 CODE1210,Computational Design Theory 2,Built Environment,Built Environment,CODE1110
 CODE1230,Urban Modelling,Built Environment,Built Environment
 CODE1231,Ubiquitous Cities,Built Environment,Built Environment
+CODE1240,Real-Time Environments,Built Environment,Built Environment,CODE1161|CODE1150
 CODE2110,Computational Design Theory 3,Built Environment,Built Environment,CODE1110
 CODE2120,Introduction to Computational Sustainability,Built Environment,Built Environment
+CODE2121,Advanced Computational Design,Built Environment,Built Environment,CODE1150|ARCH1101|CODE1231|BENV0001
 CODE2170,Building Information Modelling,Built Environment,Built Environment
 CODE2210,Philosophy of Technology,Built Environment,Built Environment
+CODE2230,Urban Interaction Design,Built Environment,Built Environment,CODE1150|CODE1231
+CODE2250,Advanced Digital Fabrication,Built Environment,Built Environment,CODE2121|CODE1110
 CODE2256,Rhino and Grasshopper Advanced: Python I,Built Environment,Built Environment
 CODE2270,Design Information Management,Built Environment,Built Environment
 CODE3131,Responsive Environments Studio,Built Environment,Built Environment
@@ -261,6 +325,7 @@ COMM2222,Industry Experience Program,UNSW Business School,UNSW Business School
 COMM3020,Global Business Practicum,UNSW Business School,UNSW Business School
 COMM3030,Social Entrepreneurship Practicum,UNSW Business School,UNSW Business School
 COMM4002,Quantitative Research Methods,UNSW Business School,UNSW Business School
+COMP1000,Introduction to World Wide Web Spreadsheets and Databases,Faculty of Engineering,School of Computer Science and Engineering
 COMP1511,Introduction to Programming,Faculty of Engineering,School of Computer Science and Engineering
 COMP1521,Computer Systems Fundamentals,Faculty of Engineering,School of Computer Science and Engineering,COMP1511,COMP1911,COMP1917
 COMP1531,Software Engineering Fundamentals,Faculty of Engineering,School of Computer Science and Engineering,COMP1511,COMP1917,COMP1921
@@ -278,6 +343,7 @@ COMP3601,Design Project A,Faculty of Engineering,School of Computer Science and 
 COMP4181,Language-based Software Safety,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
 COMP4418,Knowledge Representation and Reasoning,Faculty of Engineering,School of Computer Science and Engineering,COMP3411
 COMP4905,Industrial Training 2,Faculty of Engineering,School of Computer Science and Engineering,COMP4904
+COMP6324,Internet of Things Service Design and Engineering,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
 COMP6443,Web Application Security and Testing,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441,COMP9321
 COMP6448,Security Engineering Masterclass,Faculty of Engineering,School of Computer Science and Engineering,COMP6841
 COMP6449,Security Engineering Professional Practice,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441
@@ -308,6 +374,7 @@ CVEN3203, Applied Geotechnics and Engineering Geology,Faculty of Engineering,Sch
 CVEN3401,Sustainable Transport and Highway Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3402,Transport Engg & Environmental Sustainability,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3501,Water Resources Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN3701,Environmental Frameworks Law and Economics,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN1701
 CVEN3702,Solid Wastes and Contaminant Transport,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3731,Environmental Engineering Practice,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN4041,Research Thesis B,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN4040
@@ -316,11 +383,13 @@ CVEN4307,Steel and Composite Structures,Faculty of Engineering,School of Civil a
 CVEN4504,Advanced Water & Wastewater Treatment,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3502
 CVEN4701,Planning Sustainable Infrastructure,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN4703,Advanced Water Quality Principles,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3502
+CVEN4705,Environmental Sustainability - Methods Tools Management,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN4800,Satellite Remote Sensing and Applications,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN4901,Special Project,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9405,Urban Transport Planning Practice,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9415,Transport Systems Part 2,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9612,Catchment and Water Resources Modelling,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN9620,Channels Rivers and Estuaries,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9640,Coastal Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9809,Reinforced Concrete Design,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN9818,Bridge Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
@@ -335,23 +404,30 @@ DIPP1111,Introduction to Leadership and Professional Practice,, DIPP1111 Course 
 DIPP1112,Introduction to the Workplace,, DIPP1112 Course Outline
 DIPP1310,Professional Experience 1,, DIPP1310 Course Outline,DIPP1112
 DIPP1311,Professional Practice 2,, DIPP1311 Course Outline,DIPP1310
+DIPP1410,Diploma of Professional Practice Capstone,,DIPP1410 Course Outline,DIPP1110|DIPP1111|DIPP1112|DIPP1310|DIPP1311
 DIPP1510,Work Placement,,DIPP1510 Course Outline
 ECON1101,Microeconomics 1,UNSW Business School,School of Economics
 ECON1102,Macroeconomics 1,UNSW Business School,School of Economics,ECON1101
 ECON1107,Elements of Environmental Economics,UNSW Business School,School of Economics
 ECON1202,Quantitative Analysis for Business and Economics,UNSW Business School,School of Economics
 ECON1401,Economic Perspectives,UNSW Business School,School of Economics,ECON1101
+ECON2101,Microeconomics 2,UNSW Business School,School of Economics,ECON1101|ECON1202
+ECON2102,Macroeconomics 2,UNSW Business School,School of Economics,ECON1102|ECON1203
 ECON2103,Business and Government,UNSW Business School,School of Economics,ECON1101
 ECON2104,Applied Macroeconomics,UNSW Business School,School of Economics,ECON1102
 ECON2111,Introduction to Economic Development,UNSW Business School,School of Economics,ECON1102
+ECON2112,Game Theory and Business Strategy,UNSW Business School,School of Economics,ECON1101|ECON1202
 ECON2126,Principles of Experimental & Behavioural Economics,UNSW Business School,School of Economics,ECON1101
 ECON2127,Environmental Economics,UNSW Business School,School of Economics,ECON1101
 ECON2206,Introductory Econometrics,UNSW Business School,School of Economics,(ECON1203|ECON1202),(MATH1131|MATH1231),(MATH1141|MATH1241),(MATH1151|MATH1251)
 ECON2209,Business Forecasting,UNSW Business School,School of Economics,ECON1203
+ECON2313,Australian Economic Development,UNSW Business School,School of Economics,ECON1101|ECON1102
+ECON2322,European Economic Development,UNSW Business School,School of Economics,ECON1101|ECON1102
 ECON3101,Markets and Frictions,UNSW Business School,School of Economics,ECON2101
 ECON3104,International Macroeconomics,UNSW Business School,School of Economics,ECON2102
 ECON3106,Politics and Economics,UNSW Business School,School of Economics,ECON2101
 ECON3107,Economics of Finance,UNSW Business School,School of Economics,ECON2101
+ECON3110,Development Economics,UNSW Business School,School of Economics,ECON2101|ECON1102
 ECON3116,International Trade Theory and Policy,UNSW Business School,School of Economics,ECON2101
 ECON3121,Managerial Economics,UNSW Business School,School of Economics,ECON2101
 ECON3123,Organisational Economics,UNSW Business School,School of Economics,ECON2101,ECON2112
@@ -366,6 +442,34 @@ ECON4129,Thesis Research Methods in Economics,UNSW Business School,School of Eco
 EDST1101,Educational Psychology,Faculty of Arts and Social Sciences,School of Education
 EDST1104,Social Perspectives in Education,Faculty of Arts and Social Sciences,School of Education
 EDST1108,Indigenous Perspectives in Education,Faculty of Arts and Social Sciences,School of Education
+EDST6730,Chinese Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6700|EDST6760
+EDST6731,Drama Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6701|EDST6760
+EDST6732,English Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6702|EDST6760
+EDST6734,EAL/D Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6704|EDST6760
+EDST6735,French Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6705|EDST6760
+EDST6736,Geography Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6706|EDST6760
+EDST6737,German Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6707|EDST6760
+EDST6738,History Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6708|EDST6760
+EDST6740,Indonesian Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6710|EDST6760
+EDST6741,Japanese Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6711|EDST6760
+EDST6743,Science Double Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6713|EDST6760
+EDST6744,Spanish Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6714|EDST6760
+EDST6745,Business Studies Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6715|EDST6760
+EDST6746,Economics Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6716|EDST6760
+EDST6747,Aboriginal Studies Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6717|EDST6760
+EDST6748,Korean Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6718|EDST6760
+EDST6749,Legal Studies Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6719|EDST6760
+EDST6750,Dance Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6720|EDST6760
+EDST6752,Society and Culture Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6722|EDST6760
+EDST6753,Extension English Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6723|EDST6760
+EDST6754,Extension History Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6724|EDST6760
+EDST6755,Mathematics Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6725|EDST6760
+EDST6756,Extension Mathematics Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6726|EDST6760
+EDST6757,Music Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6727|EDST6760
+EDST6758,Extension Music Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6728|EDST6760
+EDST6772,Graphics and Multimedia Technology Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6771|EDST6760
+EDST6776,Visual Arts Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6775|EDST6760
+EDST6778,Extension Visual Arts Method 2,Faculty of Arts and Social Sciences,School of Education,EDST6777|EDST6760
 ELEC0390,Energy Tomorrow,Faculty of Engineering,School of Electrical Eng and Telecommunications
 ELEC1111,Electrical and Telecommunications Engineering,Faculty of Engineering,School of Electrical Eng and Telecommunications
 ELEC1112,Electrical Circuits,Faculty of Engineering,School of Electrical Eng and Telecommunications
@@ -385,6 +489,19 @@ ENGG1400,Engineering Infrastructure Systems,Faculty of Engineering,School of Civ
 ENGG3001,Fundamentals of Humanitarian Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 ENGG4102,Humanitarian Engineering Project,Faculty of Engineering,Faculty of Engineering
 ENGG4999,Industrial Training,Faculty of Engineering,Faculty of Engineering
+ENVS4101,Environmental Science Honours (Biology) - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4201,Environmental Science Honours (Marine Biology) - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4202,Environmental Science Honours (Marine Biology) - 12uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4203,Environmental Science Honours (Marine Biology) - 18uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4204,Environmental Science 4 Marine B (Honours) Full-Time,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4304,Environmental Science 4 Microbiol B (Honours) Full-Time,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4404,Environmental Science 4 Chemistry B (Honours) Full-Time,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4501,Environmental Science Honours (Geography) - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4502,Environmental Science Honours (Geography) - 12uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4503,Environmental Science Honours (Geography) - 18uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4602,Environmental Science Honours (Geology) - 12uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4603,Environmental Science Honours (Geology) - 18uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
+ENVS4704,Environmental Science 4 Math B (Honours) Full-Time,Faculty of Science,School of Biological Earth & Environmental Sciences
 FINS1612,Capital Markets and Institutions,UNSW Business School,School of Banking and Finance
 FINS1613,Business Finance,UNSW Business School,School of Banking and Finance
 FINS2100,Industrial Training 1 (Co-op),UNSW Business School,School of Banking and Finance,FINS1613
@@ -393,38 +510,49 @@ FINS2643,Wealth Management,UNSW Business School,School of Banking and Finance,FI
 FINS3616,International Business Finance,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3623,Venture Capital,UNSW Business School,School of Banking and Finance,FINS1613
 FINS3625,Applied Corporate Finance,UNSW Business School,School of Banking and Finance,FINS1613
+FINS3626,International Corporate Governance,UNSW Business School,School of Banking and Finance,ACCT1511|FINS1613
+FINS3630,Bank Financial Management,UNSW Business School,School of Banking and Finance,FINS1612|FINS1613
 FINS3633,Real Estate Finance,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3634,Credit Analysis and Lending,UNSW Business School,School of Banking and Finance,FINS2624
+FINS3635,Options Futures and Risk Management,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3636,Interest Rate Risk Management,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3637,Wealth Management Advice,UNSW Business School,School of Banking and Finance,FINS2643
 FINS3640,Investment Management Modeling,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3641,Security Analysis and Valuation,UNSW Business School,School of Banking and Finance,FINS2624
+FINS3648,Banking Finance and Technology,UNSW Business School,School of Banking and Finance
 FINS3650,International Banking,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3655,Behavioural Finance,UNSW Business School,School of Banking and Finance,FINS1613
 FINS4795,Thesis (Finance),UNSW Business School,School of Banking and Finance
 FOOD1120,Introduction to Food Science,Faculty of Engineering,School of Chemical Engineering
 FOOD1130,Sustainable Food Product Manufacturing,Faculty of Engineering,School of Chemical Engineering
+FOOD1210,Chemistry Biochemistry and Microbiology of Foods,Faculty of Engineering,School of Chemical Engineering
+FOOD1400,Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811||FOOD1360||FOOD1370||FOOD1380||FOOD1390||FOOD2320||FOOD2330||FOOD2340
 FOOD2320,Food Microbiology,Faculty of Engineering,School of Chemical Engineering
 FOOD2350,Forensic Food Science,Faculty of Engineering,School of Chemical Engineering
 FOOD2480,Advanced Food Microbiology,Faculty of Engineering,School of Chemical Engineering,MICR2011
 FOOD3030,Food Safety and Quality Assurance,Faculty of Engineering,School of Chemical Engineering
 FOOD3220,Nutrition,Faculty of Engineering,School of Chemical Engineering,BIOC2181,BIOC2101
+FOOD3801,Unit Operations in Food Processing,Faculty of Engineering,School of Chemical Engineering,FOOD1360|FOOD3010
 FOOD3901,Product Design and Development,Faculty of Engineering,School of Chemical Engineering,CHEM2921
 FOOD4110,Advanced Food Chemistry,Faculty of Engineering,School of Chemical Engineering,CHEM2921
 FOOD4403,Advanced Nutrition,Faculty of Engineering,School of Chemical Engineering,BIOC2181,BIOC2101
 FOOD4450,Advanced Food Processing,Faculty of Engineering,School of Chemical Engineering
+FOOD4801,Minor Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811||FOOD1360||FOOD1370||FOOD1380||FOOD1390||FOOD2320||FOOD2330||FOOD2340
 FOOD6806,Food Toxicology,Faculty of Engineering,School of Chemical Engineering
 FOOD9410,Honours Research Project,Faculty of Engineering,School of Chemical Engineering
 FOOD9420,Food Science and Technology (Honours),Faculty of Engineering,School of Chemical Engineering
 FOOD9430,Food Science  (Honours),Faculty of Engineering,School of Chemical Engineering
 GENE1011,From Catchment to Ocean,Faculty of Engineering,School of Civil and Environmental Engineering
+GENE1015,Environmental Sustainability-Methods Tools Mngmt,Faculty of Engineering,School of Civil and Environmental Engineering
 GENL0231,Law in the Digital Age,Faculty of Law,Faculty of Law
+GENL0250,Sport Law and Society in Australia,Faculty of Law,Faculty of Law
 GENL0251,Sport and Law in the Western World,Faculty of Law,Faculty of Law
 GENL0252,Sport and International Diplomacy,Faculty of Law,Faculty of Law
 GENL1021,World Religions,Faculty of Law,Faculty of Law
 GENL1022,Women and Religion,Faculty of Law,Faculty of Law
 GENL1062,Understanding Human Rights,Faculty of Law,Faculty of Law
 GENL1063,Terror and Religion,Faculty of Law,Faculty of Law
+GENL1070,International Tourism: Customs Codes and Conventions,Faculty of Law,Faculty of Law
 GENL2015,The World of Work,Faculty of Law,Faculty of Law
 GENL2021,Introduction to the Australian Legal System,Faculty of Law,Faculty of Law
 GENL2022,Law and Contemporary Issues,Faculty of Law,Faculty of Law
@@ -434,14 +562,33 @@ GENL2456,Innovation Law and Policy,Faculty of Law,Faculty of Law
 GENL5021,Business Law Basics,Faculty of Law,Faculty of Law
 GENM0295,Personalised medicine,Faculty of Medicine,Faculty of Medicine
 GENM0520,Social Business for Public Health,Faculty of Medicine,School of Public Health and Community Medicine
+GENS0401,Introduction to Climate Change,Faculty of Science,School of Biological Earth & Environmental Sciences
 GENS0450,Measuring the Universe,Faculty of Science,Faculty of Science
 GENS1099,Protecting Earth's Environment,Faculty of Science,Faculty of Science
 GENS3501,Materials and Technology for Society,Faculty of Science,School of Materials Science and Engineering
+GENS4008,Nuclear Arms Peace and Global Governance,Faculty of Science,School of Physics
+GENS4015,Brave New World: Science Fiction Science Fact and the Future,Faculty of Science,School of Physics
 GENS5003,Aviation Contemporary Issues,Faculty of Science,School of Aviation
 GENS5013,Workplace Safety,Faculty of Science,School of Aviation
 GENY0001,Academic Skills Plus,,www.lc.unsw.edu.au
 GENY0002,Academic Skills Plus,,www.lc.unsw.edu.au
 GENY0003,Academic Skills Plus,,www.lc.unsw.edu.au
+GEOS1111,Fundamentals of Geology,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS1211,Earth and Environmental Science,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS2021,Human Origins and Prehistory,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS2181,Earth Materials,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS2241,Peak Carbon: Climate Change and Energy Policy,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS2641,Urban Environments,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS2711,Australian Climate and Vegetation,Faculty of Science,School of Biological Earth & Environmental Sciences,GEOS1701
+GEOS2721,Australian Surface Environments and Landforms,Faculty of Science,School of Biological Earth & Environmental Sciences,GEOS1701
+GEOS3021,Hunters and Gatherers: Palaeoltihic to Present,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3071,Life on a Dynamic Earth,Faculty of Science,School of Biological Earth & Environmental Sciences,BIOS1101,GEOS1211
+GEOS3611,Geographies of Asia-Pacific,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3721,Australian Soil Use & Management,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3731,Coastal Geomorphology,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3733,Environmental Geophysics,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3911,Environmental Impact Assessment,Faculty of Science,School of Biological Earth & Environmental Sciences
+GEOS3921,Coastal Resource Management,Faculty of Science,School of Biological Earth & Environmental Sciences
 GMAT1110,Surveying and Geospatial Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT1400,Land Resource Assessment,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT2120,Surveying and Geospatial Technology,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
@@ -465,6 +612,7 @@ HESC4511,Practicum A,Faculty of Medicine,School of Medical Sciences,HESC3571,NEU
 HESC4521,Practicum B,Faculty of Medicine,School of Medical Sciences,HESC4511
 HESC4571,Research Project,Faculty of Medicine,School of Medical Sciences,MATH1041
 HESC4622,Clinical Practicum B,Faculty of Medicine,School of Medical Sciences,HESC4611
+HUMS1004,Thinking Through Disability: People Policies and Practices,Faculty of Arts and Social Sciences,School of Social Sciences
 HUMS1005,Personalised English Language Enhancement,Faculty of Arts and Social Sciences,School of Humanities and Languages
 HUMS1006,Presentation and Communication Skills,Faculty of Arts and Social Sciences,School of the Arts and Media
 HUMS1008,Music on My Mind: Psychology and Music,Faculty of Arts and Social Sciences,School of the Arts and Media
@@ -497,9 +645,13 @@ INTA2102,Design Practice 2: Articulate,Built Environment,Built Environment,INTA2
 INTA2171,Interior Technics 1: Assemblage,Built Environment,Built Environment
 INTA2172,Interior Technics 2: Materiality,Built Environment,Built Environment
 INTA2202,Design Practice 4: Experiment,Built Environment,Built Environment
+INTA2301,Design Practice 5: Narrate,Built Environment,Built Environment,INTA2201|INTA2202
+INTA2401,Design Practice 7: Propose,Built Environment,Built Environment,INTA3272|INTA2302||INTA3322
 INTA2402,Design Practice 8: Resolve,Built Environment,Built Environment,INTA2401
+INTA2411,Dissertation,Built Environment,Built Environment,INTA3272|INTA2302||INTA3322
 INTA3121,Critical Perspectives 1: Interiority,Built Environment,Built Environment
 INTA3122,Critical Perspectives 2: Dwelling,Built Environment,Built Environment
+INTA3222,Critical Perspectives 3: Consumption,Built Environment,Built Environment,INTA3121|INTA3122
 INTA3272,Interior Architecture Technics 4,Built Environment,Built Environment
 INTA3322,Critical Perspectives 4: Identity,Built Environment,Built Environment
 LAND1141,Landscape Architecture Communication 1,Built Environment,Landscape Architecture Program
@@ -510,8 +662,14 @@ LAND2101,Landscape Studio 1-Design Fundamentals,Built Environment,Landscape Arch
 LAND2121,Introduction to Landscape Architecture,Built Environment,Landscape Architecture Program
 LAND2122,History of Landscape Architecture,Built Environment,Landscape Architecture Program,LAND2121
 LAND2151,Landscape Analysis,Built Environment,Landscape Architecture Program
+LAND2152,Plants Design & Ecology,Built Environment,Landscape Architecture Program,LAND2151
+LAND2201,Landscape Studio 3 Landform & Planting,Built Environment,Landscape Architecture Program,LAND2152|LAND2102
+LAND2202,Landscape Studio 4 Design Detail: Resolution and Representation,Built Environment,Landscape Architecture Program,LAND2201|LAND2271
 LAND2251,Planting Design at the Landscape Scale,Built Environment,Landscape Architecture Program
 LAND2272,Landscape Design and Documentation 2,Built Environment,Landscape Architecture Program,LAND2271
+LAND2401,Landscape Studio 7 Urban Landscape Design,Built Environment,Landscape Architecture Program,LAND2302|LAND1322
+LAND2402,Landscape Studio 8 - Landscape Architecture Graduation Studio,Built Environment,Landscape Architecture Program,LAND2401|LAND2421
+LAWS1022,Criminal Laws,Faculty of Law,Faculty of Law,LAWS1021,JURD7121,LAWS1001,|JURD7101
 LAWS1213,Foundations Enrichment 1,Faculty of Law,Faculty of Law
 LAWS1214,Foundations Enrichment 2,Faculty of Law,Faculty of Law
 MANF3510,Process Technology and Automation,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN1130,MMAN2130
@@ -567,8 +725,11 @@ MATS2005,Introduction to Fluid Flow and Heat Transfer,Faculty of Science,School 
 MATS2006,Diffusion and Kinetics,Faculty of Science,School of Materials Science and Engineering
 MATS2007,Sustainable Materials Processing,Faculty of Science,School of Materials Science and Engineering
 MATS2008,Thermodynamics and Phase Equilibra,Faculty of Science,School of Materials Science and Engineering,CHEM1011,CHEM1031,MATS1101
+MATS3001,Micromechanisms of Mechanical Behaviour of Metals,Faculty of Science,School of Materials Science and Engineering,MATS2003|MATS2004
+MATS3002,Fundamentals of Ceramic Processing,Faculty of Science,School of Materials Science and Engineering,MATS2003|MATS2008
 MATS3003,Engineering in Process Metallurgy,Faculty of Science,School of Materials Science and Engineering
 MATS3004,Polymer Science and Engineering 1,Faculty of Science,School of Materials Science and Engineering
+MATS3005,Phase Transformations,Faculty of Science,School of Materials Science and Engineering,MATS2003|MATS2006|MATS2008
 MATS3006,Design and Application of Materials in Sci & Eng 3,Faculty of Science,School of Materials Science and Engineering
 MATS3007,Materials Industry Management,Faculty of Science,School of Materials Science and Engineering
 MATS4001,Secondary Processing of Metals,Faculty of Science,School of Materials Science and Engineering
@@ -578,15 +739,25 @@ MATS4004,Fracture Mechanics and Failure Analysis,Faculty of Science,School of Ma
 MATS4005,Composites and Functional Materials,Faculty of Science,School of Materials Science and Engineering
 MATS4006,Polymer Science and Engineering 2,Faculty of Science,School of Materials Science and Engineering,MATS3004
 MATS4007,Engineered Surfaces to Resist Corrosion and Wear,Faculty of Science,School of Materials Science and Engineering
+MATS4008,Materials Engineering Project (12 UoC),Faculty of Science,School of Materials Science and Engineering,MATS3001|MATS3002|MATS3004
+MATS4009,Materials Engineering Project,Faculty of Science,School of Materials Science and Engineering,MATS3001|MATS3002|MATS3004
+MATS4010,Materials Engineering Project,Faculty of Science,School of Materials Science and Engineering,MATS3001|MATS3002|MATS3004
 MATS5001,Thesis A,Faculty of Science,School of Materials Science and Engineering
 MATS5002,Thesis B,Faculty of Science,School of Materials Science and Engineering
+MECH3110,Mechanical Design 1,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2100|MMAN2400
+MECH3610,Advanced Thermofluids,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2600|MMAN2700
 MECH4100,Mechanical Design 2,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MECH3110
+MECH4620,Computational Fluid Dynamics,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2600|MMAN2700
+MECH4880,Refrigeration and Air Conditioning 1,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2600|MMAN2700
 MECH4900,Mechanics of Fracture and Fatigue,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MECH3400,MMAN3400
 MECH9223,Machine Condition Monitoring,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MECH9420,Composite Materials and Mechanics,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2400,CVEN2301
 MECH9650,Introduction to Micro Electromechanical Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+MECH9720,Solar Thermal Energy Design,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2600|MMAN2700
 MECH9761,Automobile Engine Technology,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MFAC1501,Foundations,Faculty of Medicine,Faculty of Medicine
+MFAC1521,Beginnings Growth and Development A,Faculty of Medicine,Faculty of Medicine
+MFAC1522,Beginnings Growth and Development B,Faculty of Medicine,Faculty of Medicine
 MFAC1523,Health Maintenance A,Faculty of Medicine,Faculty of Medicine
 MFAC1524,Health Maintenance B,Faculty of Medicine,Faculty of Medicine
 MFAC1525,Ageing and Endings A,Faculty of Medicine,Faculty of Medicine
@@ -594,6 +765,7 @@ MFAC1526,Ageing and Endings B,Faculty of Medicine,Faculty of Medicine
 MFAC1527,Society and Health,Faculty of Medicine,Faculty of Medicine
 MFAC1601,Introductory Clinical and Communication Skills,Faculty of Medicine,Faculty of Medicine
 MFAC2501,Society and Health 3,Faculty of Medicine,Faculty of Medicine
+MFAC2502,Beginnings Growth and Development 3,Faculty of Medicine,Faculty of Medicine
 MFAC2503,Health Maintenance 3,Faculty of Medicine,Faculty of Medicine
 MFAC2504,Ageing and Endings 3,Faculty of Medicine,Faculty of Medicine
 MFAC2505,Integrated Clinical Studies A,Faculty of Medicine,Faculty of Medicine
@@ -663,6 +835,8 @@ MMAN3000,Professional Engineering and Communication,Faculty of Engineering,Schoo
 MMAN4020,Thesis B,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN4010
 MMAN4200,Additive Manufacturing,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MMAN4400,Engineering Management,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+MSCI2001,Introductory Marine Science,Faculty of Science,School of Biological Earth & Environmental Sciences
+MSCI3001,Physical Oceanography,Faculty of Science,School of Biological Earth & Environmental Sciences
 MTRN2500,Computing for Mechatronic Engineers,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,COMP1917,COMP1511,COMP1911
 MTRN3020,Modelling and Control of Mechatronic Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN3200,ELEC3114
 MTRN3200,Elements of Mechatronic Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,ELEC1111,ELEC1112
@@ -672,13 +846,17 @@ MUSC1603,Materials and Structures of Music 2,Faculty of Arts and Social Sciences
 MUSC1604,Western Music: a Panorama,Faculty of Arts and Social Sciences,School of the Arts and Media
 MUSC1703,BA Performance Laboratory 1,Faculty of Arts and Social Sciences,School of the Arts and Media
 MUSC1706,BA Performance Laboratory 2,Faculty of Arts and Social Sciences,School of the Arts and Media
+MUSC2602,Materials and Structures of Music 3,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC1602|MUSC1603
 MUSC2701,Performance Laboratory 3,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC1704,MUSC1705
+MUSC3704,Performance Laboratory 6 (Creative Practice/Music Pedagogy),Faculty of Arts and Social Sciences,School of the Arts and Media,"MUSC3701|enrolment|in|a|Music|Creative|Practice,Music|Pedagogy|stream;,MUSC2702|enrolment|in|Music|Creative|Practice,Music|Pedagogy|stream|in|Music/Arts,Music/Media|program.||Excluded:|MUSC3402
 MUSC3808,Becoming a Performer,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC2802
 NANO2002,Nanotechnology 2,Faculty of Science,School of Chemistry
 NANO3001,Advanced Nanomaterials,Faculty of Science,School of Materials Science and Engineering
 NAVL3120,Ship Design and Propulsion,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3610
+NAVL3410,Ship Structures 1,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MATH2019|MMAN2400
 NAVL3620,Ship Hydrodynamics,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3610
 NAVL3710,Ship Standards and Marine Engineering,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+NAVL4120,Ship Design Project A,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3620|NAVL3710
 NAVL4140,Design of Yachts,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3610
 NAVL4410,Ship Structures 2,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3410
 NEUR3121,Molecular & Cellular Neuroscience,Faculty of Medicine,School of Medical Sciences,PHSL2101,PHSL2121,PHSL2501
@@ -688,11 +866,15 @@ NEUR4401,Neuroscience Honours Full-Time,Faculty of Medicine,School of Medical Sc
 NEUR4441,Neuroscience Research 6UOC,Faculty of Medicine,School of Medical Sciences
 NEUR4442,Neuroscience Research 12UOC,Faculty of Medicine,School of Medical Sciences
 NEUR4801,Neuroscience Honours Part-time,Faculty of Medicine,School of Medical Sciences
+OPTM2233,Optical Dispensing,Faculty of Science,School of Optometry and Vision Science,VISN1111|VISN1221|OPTM2133
 OPTM3105,Disease Processes of the Eye 1,Faculty of Science,School of Optometry and Vision Science,VISN2111
 OPTM3133,Vision Science in the Consulting Room,Faculty of Science,School of Optometry and Vision Science,OPTM2133
+OPTM3201,Ocular Imaging & Applied Vision Science,Faculty of Science,School of Optometry and Vision Science,OPTM2133|OPTM2233|VISN2111
 OPTM3205,Disease Processes of the Eye 2,Faculty of Science,School of Optometry and Vision Science,OPTM3105
 OPTM3231,Ocular Disease 3B,Faculty of Science,School of Optometry and Vision Science,OPTM3131
 OPTM3233,Working in the clinical environment,Faculty of Science,School of Optometry and Vision Science,OPTM3133
+OPTM4291,Optometry Medicine & Patient Management,Faculty of Science,School of Optometry and Vision Science,OPTM3231
+OPTM5171,Research Project 5A,Faculty of Science,School of Optometry and Vision Science,OPTM4211|OPTM4231|PSYC4111
 OPTM5211,Clinical Optometry 5B,Faculty of Science,School of Optometry and Vision Science,OPTM5111
 OPTM5231,Specialist Clinical Optometry 5B,Faculty of Science,School of Optometry and Vision Science,OPTM5131
 OPTM5251,Clinical Ocular Therapeutics 5B,Faculty of Science,School of Optometry and Vision Science,OPTM5151
@@ -700,6 +882,7 @@ OPTM5271,Research Project 5B,Faculty of Science,School of Optometry and Vision S
 PATH3205,Molecular Basis of Inflammation and Infection,Faculty of Medicine,School of Medical Sciences,PATH2201,PATH2202
 PATH3206,Cancer Pathology,Faculty of Medicine,School of Medical Sciences,PATH2201,PATH2202
 PHAR3202,Neuropharmacology,Faculty of Medicine,School of Medical Sciences,PHAR2011,NEUR2201
+PHAR3306,Pharmacology for Optometry,Faculty of Medicine,School of Medical Sciences,VISN2111|PHSL2101|PHSL2201
 PHCM2001,Epidemiology,Faculty of Medicine,School of Public Health and Community Medicine
 PHCM2002,Biostatistics,Faculty of Medicine,School of Public Health and Community Medicine
 PHCM2003,Health Promotion,Faculty of Medicine,School of Public Health and Community Medicine
@@ -732,6 +915,7 @@ PLAN0081,Work Experience,Built Environment,Planning and Urban Development
 PLAN0082,Work Experience,Built Environment,Planning and Urban Development
 PLAN1001,Introduction to Planning,Built Environment,Planning and Urban Development
 PLAN1002,Sustainability and Environment,Built Environment,Planning and Urban Development
+PLAN1003,Urban Society History Theory,Built Environment,Planning and Urban Development
 PLAN1004,City & Regional Economics,Built Environment,Planning and Urban Development
 PLAN1005,Design & Communication Fundamentals for Planners,Built Environment,Planning and Urban Development
 PLAN1006,Planning Techniques & Analysis,Built Environment,Planning and Urban Development
@@ -742,6 +926,10 @@ PLAN2003,Urban Design,Built Environment,Planning and Urban Development
 PLAN2005,Planning Law & Administration,Built Environment,Planning and Urban Development
 PLAN2006,Urban Management & Development Assessment,Built Environment,Planning and Urban Development
 PLAN2007,City Building: Transport & Infrastructure,Built Environment,Planning and Urban Development
+PLAN2122,History Heritage and the Built Environment,Built Environment,Planning and Urban Development
+PLAN3001,Practice: Communication Participation Engagement,Built Environment,Planning and Urban Development
+PLAN3002,Practice: Building Using Evidence,Built Environment,Planning and Urban Development
+PLAN3003,Practice: Professionalism Ethics Politics,Built Environment,Planning and Urban Development
 PLAN3004,Practice: Development,Built Environment,Planning and Urban Development
 PLAN3005,Practice: Governance & Policy,Built Environment,Planning and Urban Development
 PLAN3015,Social Planning,Built Environment,Planning and Urban Development
@@ -749,15 +937,32 @@ PLAN3031,Integrated Planning 2 -Strategic Planning,Built Environment,Planning an
 PLAN3041,Planning Law and Administration,Built Environment,Planning and Urban Development
 PLAN3051,Development Assessment,Built Environment,Planning and Urban Development
 PLAN3052,Qualitative Methods,Built Environment,Planning and Urban Development
+PLAN3671,Transport Land Use and Environment,Built Environment,Planning and Urban Development
 PLAN4002,Plan Making Studio,Built Environment,Planning and Urban Development
+PLAN4031,Research Design,Built Environment,Planning and Urban Development,PLAN0081|PLAN0082|PLAN3032|PLAN3015
 PLAN4132,Thesis Project,Built Environment,Planning and Urban Development,PLAN4031
+PLAN4142,Professionalism Ethics and Politics,Built Environment,Planning and Urban Development,PLAN0081|PLAN0082|PLAN3032|PLAN3015
 PSYC1001,Psychology 1A,Faculty of Science,School of Psychology
 PSYC1022,The Psychology of Addiction,Faculty of Science,School of Psychology
 PSYC1023,Abnormal Psychology,Faculty of Science,School of Psychology
+PSYC1024,Clinical Perspectives on Anxiety Mood and Stress,Faculty of Science,School of Psychology
 PSYC1025,Psychology of Work,Faculty of Science,School of Psychology
+PSYC1026,The Psychobiology of Sex Love and Attraction,Faculty of Science,School of Psychology
+PSYC1027,Forensic Psychology: Crime Courts and Corrections,Faculty of Science,School of Psychology
 PSYC1031,Psychological Science of Resilience,Faculty of Science,School of Psychology
 PSYC1111,Measuring Mind and Behaviour,Faculty of Science,School of Psychology
+PSYC2061,Social and Developmental Psychology,Faculty of Science,School of Psychology,PSYC1001|PSYC1011
+PSYC2071,Perception and Cognition,Faculty of Science,School of Psychology,PSYC1001|PSYC1011
+PSYC2081,Learning and Physiological Psychology,Faculty of Science,School of Psychology,PSYC1001|PSYC1011
 PSYC3001,Research Methods 3,Faculty of Science,School of Psychology,PSYC2001
+PSYC3011,Research and Applications of Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061|PSYC2071|PSYC2081|PSYC2101
+PSYC3121,Social Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
+PSYC3141,Behaviour in Organisations,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
+PSYC3211,Cognitive Science,Faculty of Science,School of Psychology,PSYC2001||PSYC2071
+PSYC3221,Vision and Brain,Faculty of Science,School of Psychology,PSYC2001|PSYC2071
+PSYC3301,Psychology and Law,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
+PSYC3311,Language and Cognition,Faculty of Science,School of Psychology,PSYC2001||PSYC2071
+PSYC3341,Developmental Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
 PSYC3371,Multivariate Data Analysis for Psychology,Faculty of Science,School of Psychology,PSYC3001
 PSYC4073,Honours Research Project A,Faculty of Science,School of Psychology
 PSYC4083,Honours Research Project B,Faculty of Science,School of Psychology
@@ -801,7 +1006,9 @@ SAHT2212,Art and Cultural Difference,Faculty of Art & Design,School of Art & Des
 SAHT2213,Memory and Self,Faculty of Art & Design,School of Art & Design
 SAHT2214,Approaches to Australian Art,Faculty of Art & Design,School of Art & Design
 SAHT2221,Writing for Publication,Faculty of Art & Design,School of Art & Design
+SAHT2301,Design History Theory and Aesthetics 2,Faculty of Art & Design,School of Art & Design
 SAHT2406,Convict to Contemporary: Australian design history,Faculty of Art & Design,School of Art & Design
+SAHT2407,Rendering Data: Visualising in Media Art and Design,Faculty of Art & Design,School of Art & Design
 SAHT2480,The Art Museum and Art Education,Faculty of Art & Design,School of Art & Design
 SAHT2601,Cultures of Ancient Art,Faculty of Art & Design,School of Art & Design
 SAHT2612,Theories and Practices of Cross-Disciplinary Art,Faculty of Art & Design,School of Art & Design
@@ -811,6 +1018,7 @@ SAHT2641,Modern Aesthetics: From the Enlightenment to the 21st Century,Faculty o
 SAHT2642,Art and the Body,Faculty of Art & Design,School of Art & Design
 SAHT2661,Experimental Film and Video since the 1960s,Faculty of Art & Design,School of Art & Design
 SAHT2663,Avant-Garde Cinema: 1900-1950,Faculty of Art & Design,School of Art & Design
+SAHT2667,After Modern Sculpture: Installation Structures and Space,Faculty of Art & Design,School of Art & Design
 SAHT2668,Photography's Histories,Faculty of Art & Design,School of Art & Design
 SAHT2679,Critical Images in Cultural Conflict: Local and Global Contexts,Faculty of Art & Design,School of Art & Design
 SAHT2680,Abstraction: from Kandinsky to Minimalism,Faculty of Art & Design,School of Art & Design
@@ -818,8 +1026,10 @@ SAHT2700,Post-Pornographic Bodies,Faculty of Art & Design,School of Art & Design
 SAHT3131,Visual and Museum Cultures of the Asia-Pacific,Faculty of Art & Design,School of Art & Design
 SAHT3211,Art in the 21st Century,Faculty of Art & Design,School of Art & Design
 SAHT3212,Art and Everyday Life,Faculty of Art & Design,School of Art & Design
+SAHT3213,Museum Studies: Exhibitions Collections and Material Culture,Faculty of Art & Design,School of Art & Design
 SAHT3216,Affect in Art and Design,Faculty of Art & Design,School of Art & Design
 SAHT3217,Socially Engaged Art,Faculty of Art & Design,School of Art & Design
+SAHT3301,Design History Theory and Aesthetics 3,Faculty of Art & Design,School of Art & Design,SAHT2301
 SAHT3613,Digital Theory and Aesthetics,Faculty of Art & Design,School of Art & Design
 SAHT3614,Screen Culture,Faculty of Art & Design,School of Art & Design
 SAHT3666,Art and the Anthropocene,Faculty of Art & Design,School of Art & Design
@@ -839,6 +1049,7 @@ SART1641,Video Art,Faculty of Art & Design,School of Art & Design
 SART2400,Painting and Materiality,Faculty of Art & Design,School of Art & Design
 SART2401,Painting and Technology,Faculty of Art & Design,School of Art & Design
 SART2402,Painting and the Body,Faculty of Art & Design,School of Art & Design
+SART2403,Painting: Space Time and Place,Faculty of Art & Design,School of Art & Design
 SART2404,Printmaking: Etching,Faculty of Art & Design,School of Art & Design
 SART2405,Printmaking: Relief Printing,Faculty of Art & Design,School of Art & Design
 SART2406,Printmaking: Lithography,Faculty of Art & Design,School of Art & Design
@@ -881,6 +1092,7 @@ SDES1001,Design Gateway 1: Design Dialogues,Faculty of Art & Design,School of Ar
 SDES1100,Sociotechnical Histories and Futures,Faculty of Art & Design,School of Art & Design
 SDES1111,Integrated Design Computing 1,Faculty of Art & Design,School of Art & Design
 SDES1211,Integrated Design Computing 2,Faculty of Art & Design,School of Art & Design
+SDES2140,Clay Glaze and Firing Technology,Faculty of Art & Design,School of Art & Design
 SDES2164,Jewellery & Small Scale Object,Faculty of Art & Design,School of Art & Design
 SDES2167,Textiles for Fashion,Faculty of Art & Design,School of Art & Design
 SDES2168,Commercial Textile Design,Faculty of Art & Design,School of Art & Design
@@ -891,11 +1103,18 @@ SDES2184,Textiles: Woven Forms,Faculty of Art & Design,School of Art & Design
 SDES2188,Wheel Throwing in Contemporary Ceramic Practice,Faculty of Art & Design,School of Art & Design
 SDES2201,Introduction to Furniture and Lighting Design,Faculty of Art & Design,School of Art & Design
 SDES2203,Drawing for Design,Faculty of Art & Design,School of Art & Design
+SDES2400,Textiles Design Narratives,Faculty of Art & Design,School of Art & Design
+SDES2401,Textiles Pattern and Form,Faculty of Art & Design,School of Art & Design
+SDES2402,Textiles Art and the Everyday,Faculty of Art & Design,School of Art & Design
+SDES2403,Textiles Time and Memory,Faculty of Art & Design,School of Art & Design
 SDES2404,Ceramics: Method and Meaning,Faculty of Art & Design,School of Art & Design
+SDES2405,Ceramics: Space Structure and Surface,Faculty of Art & Design,School of Art & Design
 SDES2406,Graphics Media: Visual Communication,Faculty of Art & Design,School of Art & Design
 SDES2407,Graphics Media: Experimental Typography,Faculty of Art & Design,School of Art & Design
+SDES2408,Jewellery Narratives Concepts and Materials,Faculty of Art & Design,School of Art & Design
 SDES2409,Jewellery Production: Synergies between Hand and Machine,Faculty of Art & Design,School of Art & Design
 SDES2410,Object Design Dialogues: Concept to Fabrication,Faculty of Art & Design,School of Art & Design
+SDES2411,Object Typologies: Reuse Recycle,Faculty of Art & Design,School of Art & Design
 SDES2412,Spatial Design: Experimental Domestic Spaces,Faculty of Art & Design,School of Art & Design
 SDES2413,Spatial Design: Experimental Public Spaces,Faculty of Art & Design,School of Art & Design
 SDES2414,Sustainable Design: Theories and Practice,Faculty of Art & Design,School of Art & Design
@@ -911,10 +1130,12 @@ SDES3174,Digital Design - Introduction to Web Design,Faculty of Art & Design,Sch
 SDES3181,Designing Responsive Objects or Spaces,Faculty of Art & Design,School of Art & Design
 SDES3801,Special Project,Faculty of Art & Design,School of Art & Design
 SDES4205,Information Graphics: Design & Visualising Data,Faculty of Art & Design,School of Art & Design
+SDES6779,Permaculture Design Principles Philosophy and Pra,Faculty of Art & Design,School of Art & Design
 SENG3011,Software Engineering Workshop 3,Faculty of Engineering,School of Computer Science and Engineering,SENG2021
 SENG4920,Ethics and Management,Faculty of Engineering,School of Computer Science and Engineering,SENG3011
 SERV9999,Tour. & Event Mgt:Sustain. the Attraction of Aust,UNSW Business School,School of Marketing
 SOCW1001,Introduction to Social Work,Faculty of Arts and Social Sciences,School of Social Sciences
+SOCW1004,Lifespan Health and Resilience,Faculty of Arts and Social Sciences,School of Social Sciences
 SOLA1070,Sustainable Energy,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA2051,Project in Photovoltaics and Renewable Energy 1,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA2052,Project in Photovoltaics and Renewable Energy 2,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2051
@@ -933,6 +1154,7 @@ SOLA5057,Energy Efficiency,Faculty of Engineering, School of the Photovoltaic an
 SOLA5509,Fundamentals of Photovoltaic Materials Processing,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOMA1642,Future Screen: Speculative Media Practices,Faculty of Art & Design,School of Art & Design
 SOMA2203,Media Art in the 21st Century,Faculty of Art & Design,School of Art & Design
+SOMA2408,Time Mass and Motion in Analogue and Digital Animation,Faculty of Art & Design,School of Art & Design
 SOMA2409,Animated Worlds,Faculty of Art & Design,School of Art & Design
 SOMA2410,The 3D Animated Body,Faculty of Art & Design,School of Art & Design
 SOMA2411,CGI Lens Laboratory,Faculty of Art & Design,School of Art & Design
@@ -966,6 +1188,7 @@ SRAP3001,Quantitative Social Research,Faculty of Arts and Social Sciences,School
 TABL1002,Computer Information Systems,UNSW Business School,School of Taxation and Business Law
 TABL1003,Microeconomics and the Australian Tax System,UNSW Business School,School of Taxation and Business Law
 TABL1005,Accounting 1,UNSW Business School,School of Taxation and Business Law
+TABL1011,Macroeconomics Government and the Economy,UNSW Business School,School of Taxation and Business Law
 TABL2053,Accounting for Complex Structures and Instruments,UNSW Business School,School of Taxation and Business Law,ATAX0015,TABL2015
 TABL2058,Quantitative Analysis,UNSW Business School,School of Taxation and Business Law
 TABL2059,Management Accounting,UNSW Business School,School of Taxation and Business Law,ATAX0010,TABL0010
@@ -1033,10 +1256,12 @@ ZEIT1600,Introduction to Civil Engineering,UNSW Canberra at ADFA,School of Engin
 ZEIT1800,Introduction to Aviation Technology,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2001,Managing Information Systems,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2102,Computer Technology,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1102
+ZEIT2103,Data Structures and Representation,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1101|ZEIT1102
 ZEIT2104,Computers and Security,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2105,Systems Analysis and Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2106,Digital Forensics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2207,Design of Electronic Circuits 2,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1206,ZEIT1291
+ZEIT2209,Principles of Electrical Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1206|ZPEM1304
 ZEIT2301,Solution Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1302
 ZEIT2306,Service Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1302
 ZEIT2403,Introduction to Operations Research,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
@@ -1063,7 +1288,10 @@ ZEIT3117,Cyber-security,UNSW Canberra at ADFA,School of Engineering & Informatio
 ZEIT3119,Web Development and Security,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3120,Programming for Security,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3121,Securing Networks,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT3215,Signals and Systems,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2207|ZPEM2309|ZPEM2310
 ZEIT3216,Design of Electronic Circuits 3,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2207
+ZEIT3220,Engineering Electromagnetics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZPEM2502|ZPEM2309|ZPEM2310
+ZEIT3221,Digital Signal Processing and Control,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3215|ZEIT3222
 ZEIT3302,Software Project Management,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3308,The E-Warrior,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3404,Simulation,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1101
@@ -1095,6 +1323,7 @@ ZEIT4007,Rotorcraft Engineering,UNSW Canberra at ADFA,School of Engineering & In
 ZEIT4008,Integrated Mechanical Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3700
 ZEIT4011,Occasional Elective 1,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4012,Occasional Elective 2,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT4013,Hypersonics and Advanced Propulsion,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2500|ZEIT2503
 ZEIT4014,Impact Dynamics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4015,Advanced Design of Steel Structure,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3603
 ZEIT4016,Airport Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3602
@@ -1121,6 +1350,7 @@ ZEIT4225,Satellite Communications,UNSW Canberra at ADFA,School of Engineering & 
 ZEIT4226,Digital Image Processing and Enhancement,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4227,Radar Techniques and Applications,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4229,Navigational Systems: Theory and Practice,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT4230,Electrical Engineering Design Practice,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3216|ZEIT3218
 ZEIT4297,Electrical Engineering Project Extension,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4301,Information Systems Honours Special Topic 1,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4302,Information Systems Honours Special Topic 2,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
@@ -1137,6 +1367,7 @@ ZEIT4503,Applied thermodynamics and Propulsion,UNSW Canberra at ADFA,School of E
 ZEIT4504,Electrical and Mechanical Plant,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2501
 ZEIT4505,Mechanical & Aeronautical Engineering Management,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4600,Civil Design Practice,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT4601,Civil Design Practice Extension,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3600|ZEIT4600
 ZEIT4602,Design of Concrete and Prestressed Concrete Structures,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3600
 ZEIT4603,Finite Element Methods,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3600
 ZEIT4604,Hydrology & Environmental Engineering Practice,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1502
@@ -1149,7 +1380,9 @@ ZEIT4704,Land Vehicles,UNSW Canberra at ADFA,School of Engineering & Information
 ZEIT4705,Marine Project,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1502
 ZEIT4801,Aviation Honours Special Topic 1,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4802,Aviation Honours Special Topic 2,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZGEN2215,Law Force and Legitimacy,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZGEN2240,Introduction to Military Ethics,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZGEN2801,Strategy Management and Leadership,UNSW Canberra at ADFA,School of Business @ UNSW Canberra at ADFA
 ZHSS1101,English and Media Studies 1A: Culture and Communication,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS1102,English and Media Studies 1B: Cultures of Conflict,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS1201,History 1A: The Second World War 1937-1941,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
@@ -1158,21 +1391,63 @@ ZHSS1301,Indonesian 1A,UNSW Canberra at ADFA,School of Humanities and Social Sci
 ZHSS1302,Indonesian 1B,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1301
 ZHSS1303,Indonesian 1C,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS1304,Indonesian 1D,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1303
+ZHSS1401,IPS1A: Ideals Interests and Power,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS1402,Int & Pol Studies 1B: World Politics,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS2001,Introduction to Research in Humanities & Social Sciences,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZHSS2104,Studies in the Media,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS2108,Dream and Disillusionment: American Literature,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS2120,Heroism Banditry & Manhood: Adventures in Film,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS2133,Another Country: Australian Literature,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS2204,Rise of Modern Navies & Sea Power,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2206,Social Change in East Asia,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2209,The Making of Contemporary Society,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2210,The Origins of Modern War,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2217,Genocide: Crime of Crimes,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2221,Ireland and Britain: 1798-1998,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2224,The Road to Ruin? Germany 1700--1933,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2229,Russian History: Medieval to Modern Times,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2230,Contemporary African History,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
 ZHSS2231,US Military History: Colonial Times to the Present,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZHSS2232,The British Empire at War: 1750-1971,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS2233,Assault from the Sea: The History of Amphibious Warfare,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
 ZHSS2234,Civil Wars: Societies in Conflict,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS2301,Indonesian 2A,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1302
 ZHSS2302,Indonesian 2B,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS2301
 ZHSS2303,Indonesian 2C,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1304
 ZHSS2304,Indonesian 2D,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS2303
+ZHSS2403,Politics of China,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS2410,Modern Political Ideologies,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS2412,Politics of Australian Security,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS2416,The Comparative Politics of Southeast Asia: Political Transition and Political Change,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS2423,Key Political Thinkers,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS2424,The Application of Air Power,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
 ZHSS2428,The Great Clashes that Define Us: Ideology in Aust,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS2601,Introductory Business Ethics,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZHSS3121,Classic Literary Texts,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS3138,War Literature and Film,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS3139,Reading Theory,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS3140,Literatures of the World,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS3141,Literature of the Modern,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1101|ZHSS1102
+ZHSS3211,The Second World War,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS3212,Australian Military History 1788 to the Present,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS3228,Insurgency/Counterinsurgency,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS3233,Naval History and Sea Power in the Twentieth Century,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
+ZHSS3235,Britain 1776-1877: Empire Nation and Society,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1201|ZHSS1202
 ZHSS3236,After the Empire: the United Kingdom since 1945,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZHSS3237,The French Revolutionary and Napoleonic Wars 1792-1815,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS3301,Indonesian 3A,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS2302
 ZHSS3302,Indonesian 3B,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS3301
+ZHSS3402,Political Cultures in Asia and the Pacific,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3414,Regional Security Issues,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3417,Ethnic Conflict and World Politics,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3422,Politics of Globalisation,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3425,Air Power in Small and Irregular Wars,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3431,The Politics of Human Rights,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3432,Who Counts in World Politics? Justice Norms Pract,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS3433,International Politics and Ethics of War,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS3434,Australia: Who really holds power?,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
+ZHSS3435,Contemporary Security Studies,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA,ZHSS1401|ZHSS1402
+ZHSS3602,God Reason Society and Science,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS4001,Arts Honours Research 1,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS4002,Arts Honours Research 2,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZHSS4003,Arts Honours Special Topic 1,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
@@ -1183,3 +1458,62 @@ ZHSS4007,History Honours Special Topic 1,UNSW Canberra at ADFA,School of Humanit
 ZHSS4008,History Honours Special Topic 2,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZINT1006,Academic and Professional Writing,UNSW Canberra at ADFA,School of Humanities and Social Sciences @ UNSW Canberra at ADFA
 ZINT2100,Introduction to Cyber-Security: Policy & Operations,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZINT2501,Engineering Materials and Chemistry,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1101,Chemistry 1A,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1102,Chemistry 1B,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1201,Geography 1A,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1202,Geography 1B,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1301,Mathematics 1A,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1302,Mathematics 1B,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1301
+ZPEM1303,Engineering Mathematics 1A,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1304,Engineering Mathematics 1B,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1303
+ZPEM1305,Engineering Problem Solving,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1306,Introduction to Discrete Mathematics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1402,Introduction to Oceanography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1501,Physics 1A: Mechanics Waves and Thermodynamics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM1502,Physics 1B: Electromagnetism and Modern Physics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2102,Organic Chemistry 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1101|ZPEM1102
+ZPEM2113,Inorganic Chemistry and Spectroscopy,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1101|ZPEM1102
+ZPEM2114,Biological Chemistry,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2102
+ZPEM2202,Ecological Biogeography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2205,Rivers and Coasts,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2207,Social Geography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2209,Development Geography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2213,Eyes on the Ground: Applications of GIS & RS,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2302,Mathematical Tools for Science,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1302,ZPEM1304
+ZPEM2309,Engineering Mathematics 2A,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1304
+ZPEM2310,Engineering Mathematics 2B,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2309
+ZPEM2311,Mathematical Modelling,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1302
+ZPEM2312,Fundamentals of Data Analysis,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2313,Discrete Mathematics with Applications,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM2508,WMDs: Signatures Effects and Protection,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3121,Supramolecular Chemistry,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2102|ZPEM2113
+ZPEM3202,Cultural Geography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3203,Conservation Biogeography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3204,Environmental Hazards,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3208,Geographic Research Methods,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM1201,ZPEM1202
+ZPEM3213,Resources and Livelihoods,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3215,Transport Geography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3222,Coastal Geography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3301,Topics in Mathematics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2311
+ZPEM3306,Waves and Fluids,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2302
+ZPEM3311,Mathematical Methods for Differential Equations,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2311
+ZPEM3312,Methods for Data Analysis,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2302
+ZPEM3313,Applied Nonlinear Dynamics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM3401,Ocean Circulation and Mixing.,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2401||ZPEM2506
+ZPEM3532,Advanced Topics in Physics and Oceanography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4001,Science Honours Research 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4002,Science Honours Research 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4003,Science Honours Research 3,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4004,Science Honours Research 4,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4101,Chemistry Honours Special Topic 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4102,Chemistry Honours Special Topic 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4201,Geography Honours Special Topic 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4202,Geography Honours Special Topic 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4205,Human Geography Honours Special Topic,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4301,Mathematics and Statistics Honours Special Topic 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4302,Mathematics and Statistics Honours Special Topic 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4401,Oceanography Honours Special Topic 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4402,Oceanography Honours Special Topic 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4501,Physics Honours Special Topic 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
+ZPEM4502,Physics Honours Special Topic 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA

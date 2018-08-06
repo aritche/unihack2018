@@ -50,8 +50,6 @@ def main():
 
 	getInfo()
 	searchBar()
-	
-	print(getRank('COMP2911,Engineering Design in Computing,Faculty of Engineering,School of Computer Science and Engineering,COMP1927,COMP2521,MTRN3500\n'))
 
 	if searched == True:
 		printSelectedCourses() 
