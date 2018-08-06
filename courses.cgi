@@ -112,6 +112,8 @@ def getRecords():
                 <table class="table table-dark table-hover">
                     <tbody>
         """
+
+	"""
 	for item in possible[1]:
                 splitItem=item.split(',')
                 print "<tr>"
@@ -122,9 +124,12 @@ def getRecords():
                     print splitItem[x]
                 print "</p></td>"
                 print "</tr>"
-        print "</tbody>"
+	"""
+        
+	print "</tbody>"
         print "</table>"
         print "</div>"
+
 
 # given a list of prereqs for a course, do taken courses satisfy these prereqs
 def checkOptions(prereqs,taken):
@@ -202,8 +207,9 @@ def searchBar():
                     <h1>Clever Course</h1>
                 </div>
                 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<p style="font-size: 18px;">Please enter courses you have completed:</p>
 			<form class="form-inline" id="search-form">
-				<input class="form-control mr-sm-2 type="text" name="searched_for" placeholder="Enter a subject...">
+				<input class="form-control mr-sm-2 type="text" name="searched_for" placeholder="Subject Code">
 				<select name="mark">
 					<option value="HD">HD</option>
 					<option value="D">D</option>
@@ -211,7 +217,7 @@ def searchBar():
 					<option value="P">P</option>
 					<option value="FAIL">Fail</option>
 				</select>
-				<button class="btn btn-success" type="submit" value="Add">Search</button>
+				<button class="btn btn-success" type="submit" value="Add">Add</button>
 	"""
 	print "<input type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
 	print "<input type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
