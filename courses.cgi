@@ -195,7 +195,16 @@ def getFuturePossibleCourses():
 				prereqs[-1] = prereqs[-1].strip('\n')
 				if checkOptions(prereqs,courses) == True:
 					matches.append(course)
-						
+				
+	# don't recommend courses that you've already taken		
+	for course in courses:
+		for match in matches:
+			if match.split(',')[0] == course:
+				matches.remove(match)
+		for match in noPrereqs:
+			if match.split(',')[0] == course:
+				noPrereqs.remove(match)
+
 	if (len(matches)!=0):
 		return [matches, noPrereqs]
 		#return list(set(matches)) 
