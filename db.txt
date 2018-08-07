@@ -10,6 +10,9 @@ ACTL2100,Industrial Training 1 (Co-op),UNSW Business School,School of Risk and A
 ACTL3142,Actuarial Data and Analysis,UNSW Business School,School of Risk and Actuarial Studies,ACTL2131|ACTL2111
 ACTL3151,Life Contingencies,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111|ACTL2102
 ACTL3182,Asset-Liability and Derivative Models,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111|ACTL2102
+ACTL3191,Superannuation and Retirement Benefits,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111,ACTL2131
+ACTL3192,Retirement Saving and Spending Over the Lifecycle,UNSW Business School,School of Risk and Actuarial Studies,ACTL2111,ACTL2131
+ACTL4301,Models for Risk Management,UNSW Business School,School of Risk and Actuarial Studies,ACTL2102|ACTL3162
 ADAD0201,Graphics and Contemporary Society,Faculty of Art & Design,School of Art & Design
 ADAD0202,Design Interactivity and Emerging Media,Faculty of Art & Design,School of Art & Design
 ADAD0220,Spatial Design: Retail Exhibition and Hospitality,Faculty of Art & Design,School of Art & Design
@@ -35,6 +38,8 @@ AERO4620,Dynamics of Aerospace Vehicles Systems and Avioni,Faculty of Engineerin
 AERO9500,Space Systems Architectures and Orbits,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 AERO9610,The Space Segment,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 ANAT1521,Anatomy for Medical Science,Faculty of Medicine,School of Medical Sciences,BABS1201
+ANAT2341,Embryology: Early and Systematic Development,Faculty of Medicine,School of Medical Sciences,ANAT2241,BABS2202
+ANAT2451,Functional Anatomy for Health and Exercise Science,Faculty of Medicine,School of Medical Sciences,ANAT1551,ANAT2111
 ANAT2521,Evolution of Human Structure,Faculty of Medicine,School of Medical Sciences
 ANAT3231,Cell Biology,Faculty of Medicine,School of Medical Sciences,ANAT2241
 ARCH0006,Special Program (Architecture),Built Environment,Architecture Program
@@ -47,6 +52,8 @@ ARCH1222,Architectural History and Theory 2,Built Environment,Architecture Progr
 ARCH1261,Construction and Structures 2,Built Environment,Architecture Program,ARCH1162
 ARCH1302,Architectural Design Studio 6,Built Environment,Architecture Program,ARCH1202|ARCH1311
 ARCH1322,Architectural History and Theory 3,Built Environment,Architecture Program
+ARCH1331,Architectural Fabrication,Built Environment,Architecture Program,ARCH1202|ARCH1261
+ARCH1361,Architectural Science & Building Environment 2,Built Environment,Architecture Program,ARCH1161
 ARCH1390,Digital Representation Studio,Built Environment,Architecture Program,ARCH1101
 ARCH1391,Digital Computation Studio,Built Environment,Architecture Program,ARCH1201|ARCH1390
 ARCH1392,Digital Collaboration Studio,Built Environment,Architecture Program,ARCH1391|ARCH1201
@@ -177,6 +184,7 @@ BENV2942,Rural Planning,Built Environment,Planning and Urban Development
 BENV4121,Spatial Policy,Built Environment,Planning and Urban Development
 BENV6001,Street Life Studies: Sydney Phnom Penh,Built Environment,Built Environment
 BINF2010,Introduction to Bioinformatics,Faculty of Engineering,School of Computer Science and Engineering,BABS1201
+BINF3010,Applied Bioinformatics,Faculty of Engineering,School of Computer Science and Engineering,BIOC2201
 BINF3020,Computational Bioinformatics,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
 BINF4111,Bioinformatics Engineering Design Project B,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
 BINF6112,Computational Biology Engineering Design Workshop,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
@@ -246,9 +254,12 @@ BLDG1024,Construction & Property Economics,Built Environment,Building Constructi
 BLDG2011,Building Services,Built Environment,Building Construction Management Program
 BLDG2012,Construction & Property Law,Built Environment,Building Construction Management Program
 BLDG2013,Construction Estimating,Built Environment,Building Construction Management Program
+BLDG2021,High Rise Building Construction,Built Environment,Building Construction Management Program,BLDG1011|BLDG1021
+BLDG2022,Procurement & Contract Administration,Built Environment,Building Construction Management Program,BLDG2012
 BLDG2023,Construction Planning,Built Environment,Building Construction Management Program
 BLDG3011,Organisational & People Management in Construction,Built Environment,Building Construction Management Program
 BLDG3012,Risk Health & Safety Management,Built Environment,Building Construction Management Program
+BLDG3013,Digital Construction,Built Environment,Building Construction Management Program,BLDG2013|BLDG2023
 BLDG3021,Property Development,Built Environment,Building Construction Management Program,BLDG2013
 BLDG3023,Construction Business Strategy & Entrepreneurship,Built Environment,Building Construction Management Program
 BLDG4018,Building Appraisal & Land Economics,Built Environment,Building Construction Management Program
@@ -261,12 +272,17 @@ BLDG4024,Business Intelligence & Data Analytics,Built Environment,Building Const
 BLDG4275,Dispute Avoidance and Resolution,Built Environment,Building Construction Management Program
 BLDG4285,Professional Practice & Procedure,Built Environment,Building Construction Management Program
 BLDG4501,Thesis Foundation,Built Environment,Building Construction Management Program
+BLDG4502,Thesis,Built Environment,Building Construction Management Program,BLDG4501
 CEIC1000,Sustainable Product Engineering and Design,Faculty of Engineering,School of Chemical Engineering
 CEIC2002,Heat and Mass Transfer,Faculty of Engineering,School of Chemical Engineering,CEIC2001
 CEIC2005,Chemical Reaction Engineering,Faculty of Engineering,School of Chemical Engineering,CEIC2000
 CEIC2007,Chemical Engineering Lab A,Faculty of Engineering,School of Chemical Engineering
 CEIC2009,Material and Energy Balances in the Chemical Process Industry,Faculty of Engineering,School of Chemical Engineering
+CEIC3000,Process Modelling and Analysis,Faculty of Engineering,School of Chemical Engineering,MATH2019|MATH2089
+CEIC3001,Advanced Thermodynamics and Separation,Faculty of Engineering,School of Chemical Engineering,CEIC2000|CEIC2001|CEIC2002|CEIC2005
 CEIC3003,Chemical Engineering Laboratory,Faculty of Engineering,School of Chemical Engineering
+CEIC3004,Process Equipment Design,Faculty of Engineering,School of Chemical Engineering,CEIC2000|CEIC2001|CEIC2002|CEIC3001
+CEIC3005,Process Plant Design,Faculty of Engineering,School of Chemical Engineering,CEIC2000|CEIC2001|CEIC2002
 CEIC3007,Chemical Engineering Lab B,Faculty of Engineering,School of Chemical Engineering
 CEIC4000,Environment and Sustainability,Faculty of Engineering,School of Chemical Engineering
 CEIC4003,Thesis B,Faculty of Engineering,School of Chemical Engineering,CEIC4002
@@ -274,6 +290,7 @@ CEIC4200,Industrial Experience,Faculty of Engineering,School of Chemical Enginee
 CEIC4201,Industrial Experience,Faculty of Engineering,School of Chemical Engineering
 CEIC6004,Advanced Polymers,Faculty of Engineering,School of Chemical Engineering,POLY3000
 CEIC6711,Complex Fluids Microstructure and Rheology,Faculty of Engineering,School of Chemical Engineering
+CEIC8341,Membrane Processes,Faculty of Engineering,School of Chemical Engineering,CEIC2001|CEIC2002
 CHEM1001,Introductory Chemistry,Faculty of Science,School of Chemistry
 CHEM1011,Chemistry A: Atoms Molecules and Energy,Faculty of Science,School of Chemistry
 CHEM1031,Higher Chemistry A: Atoms Molecules and Energy,Faculty of Science,School of Chemistry
@@ -284,6 +301,7 @@ CHEM2031,Inorganic Chemistry: The Elements,Faculty of Science,School of Chemistr
 CHEM3011,Physical Chemistry: MaterialsStructure & Function,Faculty of Science,School of Chemistry,CHEM2011,NANO2002
 CHEM3021,Organic Chemistry: Strategies For Synthesis,Faculty of Science,School of Chemistry,CHEM2021
 CHEM3031,Inorganic Chemistry: Transition Metals & Complexes,Faculty of Science,School of Chemistry,CHEM2031,CHEM2839
+CHEM3051,Medicinal Organic Chemistry,Faculty of Science,School of Chemistry,CHEM3021
 CHEM3998,Special Project in Chemistry 2,Faculty of Science,School of Chemistry
 CHEM4003,Advanced Chemistry 4 Honours,Faculty of Science,School of Chemistry
 CHEM4004,Advanced Chemistry 4 Honours (Mid-Year Start),Faculty of Science,School of Chemistry
@@ -297,6 +315,7 @@ CHEM4524,Chemistry Honours Project 24 UOC,Faculty of Science,School of Chemistry
 CHEM6041,Analytical Chemistry : Frontier Techniques,Faculty of Science,School of Chemistry,CHEM2041
 CHEN6701,Advanced Reaction Engineering,Faculty of Engineering,School of Chemical Engineering
 CHEN6703,Advanced Particle Systems Engineering,Faculty of Engineering,School of Chemical Engineering
+CHEN6706,Advanced Transport Phenomena,Faculty of Engineering,School of Chemical Engineering,CEIC2001|CEIC2002|MATH2019
 CLIM1001,Introduction to Climate Change,Faculty of Science,School of Biological Earth & Environmental Sciences
 CLIM3001,Climate Systems Science,Faculty of Science,School of Biological Earth & Environmental Sciences,CLIM2001,PHYS2801,GEOS2711,MATH2241
 CODE1110,Computational Design Theory 1,Built Environment,Built Environment
@@ -336,23 +355,33 @@ COMP2521,Data Structures and Algorithms,Faculty of Engineering,School of Compute
 COMP2911,Engineering Design in Computing,Faculty of Engineering,School of Computer Science and Engineering,COMP1927,COMP2521,MTRN3500
 COMP3131,Programming Languages and Compilers,Faculty of Engineering,School of Computer Science and Engineering,COMP2511,COMP2911
 COMP3161,Concepts of Programming Languages,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
+COMP3211,Computer Architecture,Faculty of Engineering,School of Computer Science and Engineering,COMP3222,ELEC2141
 COMP3311,Database Systems,Faculty of Engineering,School of Computer Science and Engineering,COMP1531,COMP1927,COMP2521
 COMP3411,Artificial Intelligence,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
 COMP3421,Computer Graphics,Faculty of Engineering,School of Computer Science and Engineering,COMP2511,COMP2911
 COMP3601,Design Project A,Faculty of Engineering,School of Computer Science and Engineering,COMP2121
+COMP4121,Advanced and Parallel Algorithms,Faculty of Engineering,School of Computer Science and Engineering,COMP3121,COMP3821
 COMP4181,Language-based Software Safety,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
+COMP4336,Mobile Data Networking,Faculty of Engineering,School of Computer Science and Engineering,COMP3331
+COMP4337,Securing Wireless Networks,Faculty of Engineering,School of Computer Science and Engineering,COMP3331
 COMP4418,Knowledge Representation and Reasoning,Faculty of Engineering,School of Computer Science and Engineering,COMP3411
+COMP4601,Design Project B,Faculty of Engineering,School of Computer Science and Engineering,COMP3211|COMP3601
 COMP4905,Industrial Training 2,Faculty of Engineering,School of Computer Science and Engineering,COMP4904
 COMP6324,Internet of Things Service Design and Engineering,Faculty of Engineering,School of Computer Science and Engineering,COMP1531|COMP2041
 COMP6443,Web Application Security and Testing,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441,COMP9321
 COMP6448,Security Engineering Masterclass,Faculty of Engineering,School of Computer Science and Engineering,COMP6841
 COMP6449,Security Engineering Professional Practice,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441
+COMP6741,Parameterized and Exact Computation,Faculty of Engineering,School of Computer Science and Engineering,COMP3121,COMP3821
 COMP6752,Modelling Concurrent Systems,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
 COMP6771,Advanced C++ Programming,Faculty of Engineering,School of Computer Science and Engineering,COMP2511,COMP2911
 COMP6843,Extended Web Application Security and Testing,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441,COMP9321
 COMP9161,Concepts of Programming Languages,Faculty of Engineering,School of Computer Science and Engineering
 COMP9319,Web Data Compression and Search,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
+COMP9322,Software Service Design and Engineering,Faculty of Engineering,School of Computer Science and Engineering,COMP9321
+COMP9332,Network Routing and Switching,Faculty of Engineering,School of Computer Science and Engineering,COMP3331
+COMP9333,Advanced Computer Networks,Faculty of Engineering,School of Computer Science and Engineering,COMP3331
 COMP9334,Capacity Planning of Computer Systems and Networks,Faculty of Engineering,School of Computer Science and Engineering,COMP1511,COMP1917,COMP1921
+COMP9418,Advanced Topics in Statistical Machine Learning,Faculty of Engineering,School of Computer Science and Engineering,COMP9417
 COMP9444,Neural Networks and Deep Learning,Faculty of Engineering,School of Computer Science and Engineering,COMP1927,COMP2521,MTRN3500
 COMP9447,Security Engineering Workshop,Faculty of Engineering,School of Computer Science and Engineering,COMP6441,COMP6841,COMP3441
 COMP9517,Computer Vision,Faculty of Engineering,School of Computer Science and Engineering,COMP2521,COMP1927
@@ -361,27 +390,49 @@ CRIM1011,Introduction to Criminal Justice,Faculty of Arts and Social Sciences,Sc
 CRIM3024,Issues in Drug Policy,Faculty of Arts and Social Sciences,School of Social Sciences,CRIM2021,LAWS1022
 CVEN0610,Water and Soil Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN1701,Environmental Principles and Systems,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN2002,Engineering Computations for Civil Engineers,Faculty of Engineering,School of Civil and Environmental Engineering,MATH1231,MATH1241
 CVEN2101,Engineering Construction,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN2201,Soil Mechanics,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN2302,Materials and Structures,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN2303,Structural Analysis and Modelling,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN1300|CVEN2301
 CVEN2401,Sustainable Transport and Highway Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN2402,Transport Engineering &Environmental Sustainabilit,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN2501,Principles of Water Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN2701,Water and Atmospheric Chemistry,Faculty of Engineering,School of Civil and Environmental Engineering,CHEM1011,CHEM1031
+CVEN2702,Engineering Computations for Environmental Engineers,Faculty of Engineering,School of Civil and Environmental Engineering,MATH1231,MATH1241
 CVEN3031,Civil and Environmental Engineering Practice,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3101,Engineering Operations and Control,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN3201,Applied Geotechnics and Engineering Geology,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2201
 CVEN3202,Soil Mechanics,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3203, Applied Geotechnics and Engineering Geology,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2201,CVEN3202
+CVEN3302,Structural Behaviour and Design,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2301|CVEN2302
+CVEN3303,Steel Structures,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN1300|CVEN2301
+CVEN3304,Concrete Structures,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN1300|CVEN2301
 CVEN3401,Sustainable Transport and Highway Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3402,Transport Engg & Environmental Sustainability,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3501,Water Resources Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN3502,Water and Wastewater Engineering,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2501
 CVEN3701,Environmental Frameworks Law and Economics,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN1701
 CVEN3702,Solid Wastes and Contaminant Transport,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN3731,Environmental Engineering Practice,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN4031,Honours Thesis B,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN4030
+CVEN4033,Higher Honours Thesis B,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN4032
 CVEN4041,Research Thesis B,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN4040
+CVEN4101,Problem Solving for Engineers,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3101
+CVEN4102,Operations and Projects,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3101
+CVEN4103,Engineering Contracts,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3101
+CVEN4104,Sustainability in Construction,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3101
 CVEN4305,Advanced Materials Technology,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2302
 CVEN4307,Steel and Composite Structures,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3302
+CVEN4310,Deformation Monitoring Surveys,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
+CVEN4501,Catchment Modelling and Water Resources Management,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2501|CVEN3501
+CVEN4502,Coastal Engineering,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2501|CVEN3501
+CVEN4503,Groundwater Resource Investigation,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3501
 CVEN4504,Advanced Water & Wastewater Treatment,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3502
+CVEN4505,River Engineering,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2501|CVEN3502
+CVEN4507,Advanced Water Engineering,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN2501|CVEN3501|CVEN3502
 CVEN4701,Planning Sustainable Infrastructure,Faculty of Engineering,School of Civil and Environmental Engineering
+CVEN4702,Hazardous Waste Treatment,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3702
 CVEN4703,Advanced Water Quality Principles,Faculty of Engineering,School of Civil and Environmental Engineering,CVEN3502
 CVEN4705,Environmental Sustainability - Methods Tools Management,Faculty of Engineering,School of Civil and Environmental Engineering
 CVEN4800,Satellite Remote Sensing and Applications,Faculty of Engineering,School of Civil and Environmental Engineering
@@ -433,6 +484,7 @@ ECON3121,Managerial Economics,UNSW Business School,School of Economics,ECON2101
 ECON3123,Organisational Economics,UNSW Business School,School of Economics,ECON2101,ECON2112
 ECON3124,Behavioural Economics,UNSW Business School,School of Economics,ECON2101
 ECON3125,Economics of Human Capital,UNSW Business School,School of Economics,ECON2101,ECON2112
+ECON3130,Real Estate Economics and Public Policy,UNSW Business School,School of Economics,ECON1102|ECON2101
 ECON3202,Mathematical  Economics,UNSW Business School,School of Economics,ECON1202
 ECON3203,Econometric Theory and Methods,UNSW Business School,School of Economics,ECON3209
 ECON3206,Financial Econometrics,UNSW Business School,School of Economics,ECON2209
@@ -478,8 +530,23 @@ ELEC3104,Digital Signal Processing,Faculty of Engineering,School of Electrical E
 ELEC3111,Distributed Energy Generation,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2134
 ELEC3114,Control Systems,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2134
 ELEC3115,Electromagnetic Engineering,Faculty of Engineering,School of Electrical Eng and Telecommunications
+ELEC3117,Electrical Engineering Design,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2133
 ELEC4121,Thesis - Part B (Electrical Engineering),Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC4120
 ELEC4123,Electrical Design Proficiency,Faculty of Engineering,School of Electrical Eng and Telecommunications
+ELEC4601,Digital and Embedded Systems Design,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3106
+ELEC4602,Microelectronic Design and Technology,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3106
+ELEC4603,Solid State Electronics,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2133
+ELEC4604,RF Electronics,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3106
+ELEC4611,Power System Equipment,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3105
+ELEC4612,Power System Analysis,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3105
+ELEC4613,Electrical Drive Systems,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3105
+ELEC4614,Power Electronics,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2133
+ELEC4621,Advanced Digital Signal Processing,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3104
+ELEC4622,Multimedia Signal Processing,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3104
+ELEC4623,Biomedical Instrumentation Measurement and Design,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3104
+ELEC4631,Continuous - Time Control System Design,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3114
+ELEC4632,Computer Control Systems,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3114
+ELEC4633,Real - Time Engineering,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3114
 ENGG0360,Communicating in Engineering,Faculty of Engineering,School of Electrical Eng and Telecommunications
 ENGG0380,Academic Discourse in Engineering,Faculty of Engineering,School of Electrical Eng and Telecommunications
 ENGG1000,Introduction to Engineering Design and Innovation,Faculty of Engineering,Faculty of Engineering
@@ -489,6 +556,7 @@ ENGG1400,Engineering Infrastructure Systems,Faculty of Engineering,School of Civ
 ENGG3001,Fundamentals of Humanitarian Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
 ENGG4102,Humanitarian Engineering Project,Faculty of Engineering,Faculty of Engineering
 ENGG4999,Industrial Training,Faculty of Engineering,Faculty of Engineering
+ENVS2030,Australian Cultural & Social Environments,Faculty of Science,School of Biological Earth & Environmental Sciences,ENVS1011
 ENVS4101,Environmental Science Honours (Biology) - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
 ENVS4201,Environmental Science Honours (Marine Biology) - 6uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
 ENVS4202,Environmental Science Honours (Marine Biology) - 12uoc,Faculty of Science,School of Biological Earth & Environmental Sciences
@@ -517,6 +585,7 @@ FINS3634,Credit Analysis and Lending,UNSW Business School,School of Banking and 
 FINS3635,Options Futures and Risk Management,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3636,Interest Rate Risk Management,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3637,Wealth Management Advice,UNSW Business School,School of Banking and Finance,FINS2643
+FINS3639,Estate Planning and Asset Protection,UNSW Business School,School of Banking and Finance,FINS2624|FINS2643
 FINS3640,Investment Management Modeling,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3641,Security Analysis and Valuation,UNSW Business School,School of Banking and Finance,FINS2624
 FINS3648,Banking Finance and Technology,UNSW Business School,School of Banking and Finance
@@ -526,10 +595,12 @@ FINS4795,Thesis (Finance),UNSW Business School,School of Banking and Finance
 FOOD1120,Introduction to Food Science,Faculty of Engineering,School of Chemical Engineering
 FOOD1130,Sustainable Food Product Manufacturing,Faculty of Engineering,School of Chemical Engineering
 FOOD1210,Chemistry Biochemistry and Microbiology of Foods,Faculty of Engineering,School of Chemical Engineering
-FOOD1400,Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811||FOOD1360||FOOD1370||FOOD1380||FOOD1390||FOOD2320||FOOD2330||FOOD2340
+FOOD1360,Food Processing Principles,Faculty of Engineering,School of Chemical Engineering,PHYS1111|MATH1031|MATH1041
+FOOD1400,Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811|FOOD1360|FOOD1370|FOOD1380|FOOD1390|FOOD2320|FOOD2330|FOOD2340
 FOOD2320,Food Microbiology,Faculty of Engineering,School of Chemical Engineering
 FOOD2350,Forensic Food Science,Faculty of Engineering,School of Chemical Engineering
 FOOD2480,Advanced Food Microbiology,Faculty of Engineering,School of Chemical Engineering,MICR2011
+FOOD3010,Food Preservation,Faculty of Engineering,School of Chemical Engineering,CHEM1021,CHEM1041
 FOOD3030,Food Safety and Quality Assurance,Faculty of Engineering,School of Chemical Engineering
 FOOD3220,Nutrition,Faculty of Engineering,School of Chemical Engineering,BIOC2181,BIOC2101
 FOOD3801,Unit Operations in Food Processing,Faculty of Engineering,School of Chemical Engineering,FOOD1360|FOOD3010
@@ -537,7 +608,7 @@ FOOD3901,Product Design and Development,Faculty of Engineering,School of Chemica
 FOOD4110,Advanced Food Chemistry,Faculty of Engineering,School of Chemical Engineering,CHEM2921
 FOOD4403,Advanced Nutrition,Faculty of Engineering,School of Chemical Engineering,BIOC2181,BIOC2101
 FOOD4450,Advanced Food Processing,Faculty of Engineering,School of Chemical Engineering
-FOOD4801,Minor Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811||FOOD1360||FOOD1370||FOOD1380||FOOD1390||FOOD2320||FOOD2330||FOOD2340
+FOOD4801,Minor Project,Faculty of Engineering,School of Chemical Engineering,CHEM3811|FOOD1360|FOOD1370|FOOD1380|FOOD1390|FOOD2320|FOOD2330|FOOD2340
 FOOD6806,Food Toxicology,Faculty of Engineering,School of Chemical Engineering
 FOOD9410,Honours Research Project,Faculty of Engineering,School of Chemical Engineering
 FOOD9420,Food Science and Technology (Honours),Faculty of Engineering,School of Chemical Engineering
@@ -593,12 +664,19 @@ GMAT1110,Surveying and Geospatial Engineering,Faculty of Engineering,School of C
 GMAT1400,Land Resource Assessment,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT2120,Surveying and Geospatial Technology,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
 GMAT2210,GIS in Practice,Faculty of Engineering,School of Civil and Environmental Engineering
+GMAT2500,Surveying Computations A,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
+GMAT2550,Surveying Computations B,Faculty of Engineering,School of Civil and Environmental Engineering,MATH1231,MATH1241
+GMAT2700,Foundations of Geodesy & Geospatial Ref Frames,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
 GMAT3210,Geoinformation Science,Faculty of Engineering,School of Civil and Environmental Engineering
+GMAT3220,Geospatial Information Systems,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT1110
+GMAT3420,Cadastral Surveying and Land Law,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT2500
 GMAT3500,Remote Sensing and Photogrammetry,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT3600,Earth Observation Systems and Applications,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT4009,Practical Experience,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT4015,Undergraduate Project Thesis B,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT4010
 GMAT4150,Field Projects 2,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT3150
+GMAT4220,Geospatial Information Science,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT3220
+GMAT4400,Land Management Project,Faculty of Engineering,School of Civil and Environmental Engineering,GMAT2500
 GMAT4450,Land Management and Development Project 2,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT4720,Survey Business Management,Faculty of Engineering,School of Civil and Environmental Engineering
 GMAT4860,Sustainable Land Development,Faculty of Engineering,School of Civil and Environmental Engineering
@@ -608,9 +686,15 @@ GMAT9300,Aerial and Satellite Imaging Systems,Faculty of Engineering,School of C
 GMAT9606,Microwave Remote Sensing,Faculty of Engineering,School of Civil and Environmental Engineering
 GSOE9712,Engineering Statistics and Experimental Design,Faculty of Engineering,Graduate School of Biomedical Engineering
 GSOE9740,Industrial Ecology and Sustainable Engineering,Faculty of Engineering,School of Civil and Environmental Engineering
+HESC1511,Exercise Programs & Behaviour,Faculty of Medicine,School of Medical Sciences,HESC1501|PSYC1001
+HESC3581,Physical Activity in Special Populations,Faculty of Medicine,School of Medical Sciences,HESC3541|HESC3504
+HESC3641,Advanced Exercise Physiology,Faculty of Medicine,School of Medical Sciences,HESC2501
+HESC4501,Exercise Physiology Research Seminars,Faculty of Medicine,School of Medical Sciences,MATH1041
 HESC4511,Practicum A,Faculty of Medicine,School of Medical Sciences,HESC3571,NEUR3101
 HESC4521,Practicum B,Faculty of Medicine,School of Medical Sciences,HESC4511
+HESC4551,Research Project,Faculty of Medicine,School of Medical Sciences,MATH1041|HESC4501
 HESC4571,Research Project,Faculty of Medicine,School of Medical Sciences,MATH1041
+HESC4611,Clinical Practicum A,Faculty of Medicine,School of Medical Sciences,HESC3504|HESC3541|HESC3532|HESC3592
 HESC4622,Clinical Practicum B,Faculty of Medicine,School of Medical Sciences,HESC4611
 HUMS1004,Thinking Through Disability: People Policies and Practices,Faculty of Arts and Social Sciences,School of Social Sciences
 HUMS1005,Personalised English Language Enhancement,Faculty of Arts and Social Sciences,School of Humanities and Languages
@@ -622,10 +706,17 @@ IDES1202,Design Studio 2: Materials,Built Environment,Industrial Design Program,
 IDES1261,Communication 1: Technical Drawing Fundamentals,Built Environment,Industrial Design Program
 IDES2021,Thinking Products,Built Environment,Industrial Design Program
 IDES2072,Manufacturing Technology,Built Environment,Industrial Design Program
+IDES2102,Design Studio 4: People,Built Environment,Industrial Design Program,IDES2101
 IDES2171,Communication 2: 3D Digital Modelling,Built Environment,Industrial Design Program
 IDES2201,Ergonomics,Built Environment,Industrial Design Program
+IDES3101,Design Studio 5: Complexity,Built Environment,Industrial Design Program,IDES2102
+IDES3102,Design Studio 6: Sustainability,Built Environment,Industrial Design Program,IDES3101
 IDES3231,Advanced Computer Aided Product Design,Built Environment,Industrial Design Program,IDES2171
 IDES3235,Industrial Design in the Asian Century,Built Environment,Built Environment
+IDES4101,Design Studio 7: Enquiry,Built Environment,Industrial Design Program,IDES3102
+IDES4102,Design Studio 8: Integration,Built Environment,Industrial Design Program,IDES4101
+INDC3001,Applied Industrial Chemistry,Faculty of Engineering,School of Chemical Engineering,CEIC2000|CHEM2021|MATH2089
+INDC3002,Environmental Science and Technology,Faculty of Engineering,School of Chemical Engineering,CHEM2021|CEIC2000
 INFS1602,Digital Transformation in Business,UNSW Business School,School of Information Systems and Technology Management
 INFS1603,Introduction to Business Databases,UNSW Business School,School of Information Systems and Technology Management
 INFS1609,Fundamentals of Business Programming,UNSW Business School,School of Information Systems and Technology Management
@@ -644,36 +735,50 @@ INTA2101,Design Practice 1: Enquire,Built Environment,Built Environment
 INTA2102,Design Practice 2: Articulate,Built Environment,Built Environment,INTA2101
 INTA2171,Interior Technics 1: Assemblage,Built Environment,Built Environment
 INTA2172,Interior Technics 2: Materiality,Built Environment,Built Environment
+INTA2201,Design Practice 3: Translate,Built Environment,Built Environment,INTA2101|INTA2102|BENV0001
 INTA2202,Design Practice 4: Experiment,Built Environment,Built Environment
 INTA2301,Design Practice 5: Narrate,Built Environment,Built Environment,INTA2201|INTA2202
-INTA2401,Design Practice 7: Propose,Built Environment,Built Environment,INTA3272|INTA2302||INTA3322
+INTA2302,Design Practice 6: Speculate,Built Environment,Built Environment,INTA2301
+INTA2401,Design Practice 7: Propose,Built Environment,Built Environment,INTA3272|INTA2302|INTA3322
 INTA2402,Design Practice 8: Resolve,Built Environment,Built Environment,INTA2401
-INTA2411,Dissertation,Built Environment,Built Environment,INTA3272|INTA2302||INTA3322
+INTA2411,Dissertation,Built Environment,Built Environment,INTA3272|INTA2302|INTA3322
 INTA3121,Critical Perspectives 1: Interiority,Built Environment,Built Environment
 INTA3122,Critical Perspectives 2: Dwelling,Built Environment,Built Environment
 INTA3222,Critical Perspectives 3: Consumption,Built Environment,Built Environment,INTA3121|INTA3122
+INTA3241,Interior Architecture Communication Techniques  3,Built Environment,Built Environment,INTA2141|INTA2142
+INTA3271,Interior Technics 3: Detail,Built Environment,Built Environment,INTA2171|INTA2172
 INTA3272,Interior Architecture Technics 4,Built Environment,Built Environment
 INTA3322,Critical Perspectives 4: Identity,Built Environment,Built Environment
 LAND1141,Landscape Architecture Communication 1,Built Environment,Landscape Architecture Program
+LAND1322,Urban Landscape Design Seminar,Built Environment,Landscape Architecture Program,LAND2301|LAND1351
+LAND1351,Landscape Performance and Management,Built Environment,Landscape Architecture Program,LAND2152
 LAND1421,Thesis Foundation,Built Environment,Landscape Architecture Program,LAND1322
 LAND1422,Landscape Thesis,Built Environment,Landscape Architecture Program
 LAND1482,Professional Practice for Landscape Architects,Built Environment,Landscape Architecture Program
 LAND2101,Landscape Studio 1-Design Fundamentals,Built Environment,Landscape Architecture Program
+LAND2102,Landscape Studio 2 Design Process,Built Environment,Landscape Architecture Program,LAND2101
 LAND2121,Introduction to Landscape Architecture,Built Environment,Landscape Architecture Program
 LAND2122,History of Landscape Architecture,Built Environment,Landscape Architecture Program,LAND2121
+LAND2142,Landscape Architecture Communication 2,Built Environment,Landscape Architecture Program,LAND1141
 LAND2151,Landscape Analysis,Built Environment,Landscape Architecture Program
 LAND2152,Plants Design & Ecology,Built Environment,Landscape Architecture Program,LAND2151
 LAND2201,Landscape Studio 3 Landform & Planting,Built Environment,Landscape Architecture Program,LAND2152|LAND2102
 LAND2202,Landscape Studio 4 Design Detail: Resolution and Representation,Built Environment,Landscape Architecture Program,LAND2201|LAND2271
 LAND2251,Planting Design at the Landscape Scale,Built Environment,Landscape Architecture Program
+LAND2271,Landscape Design and Documentation 1,Built Environment,Landscape Architecture Program,LAND2102
 LAND2272,Landscape Design and Documentation 2,Built Environment,Landscape Architecture Program,LAND2271
+LAND2301,Landscape Studio 5 Site Planning: Landscape Systems and Performance,Built Environment,Landscape Architecture Program,LAND2202
+LAND2302,Landscape Studio 6 Design with a Complex Program,Built Environment,Landscape Architecture Program,LAND2301
 LAND2401,Landscape Studio 7 Urban Landscape Design,Built Environment,Landscape Architecture Program,LAND2302|LAND1322
 LAND2402,Landscape Studio 8 - Landscape Architecture Graduation Studio,Built Environment,Landscape Architecture Program,LAND2401|LAND2421
-LAWS1022,Criminal Laws,Faculty of Law,Faculty of Law,LAWS1021,JURD7121,LAWS1001,|JURD7101
+LAND2421,Contemporary Landscape Theory and Research,Built Environment,Landscape Architecture Program,LAND1322
+LAWS1022,Criminal Laws,Faculty of Law,Faculty of Law,LAWS1021,JURD7121,LAWS1001,JURD7101
 LAWS1213,Foundations Enrichment 1,Faculty of Law,Faculty of Law
 LAWS1214,Foundations Enrichment 2,Faculty of Law,Faculty of Law
 MANF3510,Process Technology and Automation,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN1130,MMAN2130
 MANF4020,Manufacturing Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+MANF4100,Design and Analysis of Product-Process Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MANF3100|MANF3510
+MANF4430,Reliability and Maintenance Engineering,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MATH2089
 MANF4450,Strategic Manufacturing and Accounting,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MANF4611,Process Modelling and Simulation,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MATH2089
 MANF6860,Strategic Manufacturing Management,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
@@ -698,11 +803,19 @@ MATH1031,Mathematics for Life Sciences,Faculty of Science,School of Mathematics 
 MATH1131,Mathematics 1A,Faculty of Science,School of Mathematics and Statistics
 MATH1141,Higher Mathematics 1A,Faculty of Science,School of Mathematics and Statistics
 MATH1151,Mathematics for Actuarial Studies and Finance 1A,Faculty of Science,School of Mathematics and Statistics
+MATH1231,Mathematics 1B,Faculty of Science,School of Mathematics and Statistics,MATH1131,MATH1141
+MATH1251,Mathematics for Actuarial Studies and Finance 1B,Faculty of Science,School of Mathematics and Statistics,MATH1151
+MATH2018,Engineering Mathematics 2D,Faculty of Science,School of Mathematics and Statistics,MATH1231,MATH1241,MATH1251
+MATH2019,Engineering Mathematics 2E,Faculty of Science,School of Mathematics and Statistics,MATH1231,MATH1241,MATH1251
 MATH2120,Mathematical Methods for Differential Equations,Faculty of Science,School of Mathematics and Statistics,MATH1231,MATH1241,MATH1251
 MATH2121,Theory and Applications of Differential Equations,Faculty of Science,School of Mathematics and Statistics,MATH1231,MATH1241,MATH1251
 MATH2241,Introduction to Atmosphere and Ocean Dynamics,Faculty of Science,School of Mathematics and Statistics,MATH1231,MATH1241,MATH1251
 MATH2400,Finite Mathematics,Faculty of Science,School of Mathematics and Statistics,MATH1081,MATH1231,MATH1241,MATH1251
+MATH2831,Linear Models,Faculty of Science,School of Mathematics and Statistics,MATH2801,MATH2901
+MATH3811,Statistical Inference,Faculty of Science,School of Mathematics and Statistics,MATH2831,MATH2931
 MATH3821,Statistical Modelling and Computing,Faculty of Science,School of Mathematics and Statistics,MATH2831,MATH2931
+MATH3831,Statistical Methods in Social and Market Research,Faculty of Science,School of Mathematics and Statistics,MATH2801,MATH2901
+MATH3841,Statistical Analysis of Dependent Data,Faculty of Science,School of Mathematics and Statistics,MATH3811,MATH3911
 MATH3871,Bayesian Inference and Computation,Faculty of Science,School of Mathematics and Statistics,MATH2801,MATH2901
 MATH4001,MathsStats Hons Thesis A,Faculty of Science,School of Mathematics and Statistics
 MATH4002,MathsStats Hons Thesis B,Faculty of Science,School of Mathematics and Statistics
@@ -830,16 +943,19 @@ MINE4310,Mine Geotechnical Engineering,Faculty of Engineering,School of Mining E
 MINE4320,Advanced Geotechnical Engineering,Faculty of Engineering,School of Mining Engineering,MINE4310
 MINE4450,Mine Research Project - Thesis,Faculty of Engineering,School of Mining Engineering,MINE4440
 MINE4820,Advanced Mineral Processing,Faculty of Engineering,School of Mining Engineering
+MMAN2100,Engineering Design 2,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,ENGG1000
 MMAN2130,Design and Manufacturing,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MMAN3000,Professional Engineering and Communication,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MMAN4020,Thesis B,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN4010
 MMAN4200,Additive Manufacturing,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
 MMAN4400,Engineering Management,Faculty of Engineering,School of Mechanical and Manufacturing Engineering
+MMAN4410,Finite Element Methods,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN2400
 MSCI2001,Introductory Marine Science,Faculty of Science,School of Biological Earth & Environmental Sciences
 MSCI3001,Physical Oceanography,Faculty of Science,School of Biological Earth & Environmental Sciences
 MTRN2500,Computing for Mechatronic Engineers,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,COMP1917,COMP1511,COMP1911
 MTRN3020,Modelling and Control of Mechatronic Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MMAN3200,ELEC3114
 MTRN3200,Elements of Mechatronic Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,ELEC1111,ELEC1112
+MTRN3500,Computing Applications in Mechatronics Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MTRN2500
 MTRN4030,Optimisation Methods for Engineering Systems,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,MATH2089
 MUSC1602,Materials and Structures of Music 1,Faculty of Arts and Social Sciences,School of the Arts and Media
 MUSC1603,Materials and Structures of Music 2,Faculty of Arts and Social Sciences,School of the Arts and Media
@@ -848,7 +964,6 @@ MUSC1703,BA Performance Laboratory 1,Faculty of Arts and Social Sciences,School 
 MUSC1706,BA Performance Laboratory 2,Faculty of Arts and Social Sciences,School of the Arts and Media
 MUSC2602,Materials and Structures of Music 3,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC1602|MUSC1603
 MUSC2701,Performance Laboratory 3,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC1704,MUSC1705
-MUSC3704,Performance Laboratory 6 (Creative Practice/Music Pedagogy),Faculty of Arts and Social Sciences,School of the Arts and Media,"MUSC3701|enrolment|in|a|Music|Creative|Practice,Music|Pedagogy|stream;,MUSC2702|enrolment|in|Music|Creative|Practice,Music|Pedagogy|stream|in|Music/Arts,Music/Media|program.||Excluded:|MUSC3402
 MUSC3808,Becoming a Performer,Faculty of Arts and Social Sciences,School of the Arts and Media,MUSC2802
 NANO2002,Nanotechnology 2,Faculty of Science,School of Chemistry
 NANO3001,Advanced Nanomaterials,Faculty of Science,School of Materials Science and Engineering
@@ -859,6 +974,7 @@ NAVL3710,Ship Standards and Marine Engineering,Faculty of Engineering,School of 
 NAVL4120,Ship Design Project A,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3620|NAVL3710
 NAVL4140,Design of Yachts,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3610
 NAVL4410,Ship Structures 2,Faculty of Engineering,School of Mechanical and Manufacturing Engineering,NAVL3410
+NEUR3101,Muscle and Motor Control,Faculty of Medicine,School of Medical Sciences,PHSL2101,PHSL2121,PHSL2501,NEUR2201
 NEUR3121,Molecular & Cellular Neuroscience,Faculty of Medicine,School of Medical Sciences,PHSL2101,PHSL2121,PHSL2501
 NEUR3211,Neuroscience Research Seminars,Faculty of Medicine,School of Medical Sciences,ANAT3411,NEUR3121
 NEUR3221,Neurophysiology,Faculty of Medicine,School of Medical Sciences,PHSL2101,PHSL2121,PHSL2501
@@ -874,6 +990,8 @@ OPTM3205,Disease Processes of the Eye 2,Faculty of Science,School of Optometry a
 OPTM3231,Ocular Disease 3B,Faculty of Science,School of Optometry and Vision Science,OPTM3131
 OPTM3233,Working in the clinical environment,Faculty of Science,School of Optometry and Vision Science,OPTM3133
 OPTM4291,Optometry Medicine & Patient Management,Faculty of Science,School of Optometry and Vision Science,OPTM3231
+OPTM5111,Clinical Optometry 5A,Faculty of Science,School of Optometry and Vision Science,OPTM4211|OPTM4231|OPTM4251|OPTM4271|PSYC4111|PHAR3306
+OPTM5151,Clinical Ocular Therapeutics 5A,Faculty of Science,School of Optometry and Vision Science,OPTM4231|OPTM4251|VISN2231|PHPH3306
 OPTM5171,Research Project 5A,Faculty of Science,School of Optometry and Vision Science,OPTM4211|OPTM4231|PSYC4111
 OPTM5211,Clinical Optometry 5B,Faculty of Science,School of Optometry and Vision Science,OPTM5111
 OPTM5231,Specialist Clinical Optometry 5B,Faculty of Science,School of Optometry and Vision Science,OPTM5131
@@ -901,8 +1019,11 @@ PHCM3009,The Power of Sport: An Introduction to Sport for Social Change,Faculty 
 PHCM4013,Influencing Health Beliefs and Health Behaviours,Faculty of Medicine,School of Public Health and Community Medicine,HESC3504
 PHSL2121,Principles of Physiology A,Faculty of Medicine,School of Medical Sciences
 PHSL2221,Principles of Physiology B,Faculty of Medicine,School of Medical Sciences,PHSL2121
+PHSL2502,Human Physiology B,Faculty of Medicine,School of Medical Sciences,PHSL2501
 PHTN3117,Photonic Engineering Design,Faculty of Engineering,School of Electrical Eng and Telecommunications
 PHTN4123,Photonic Design Proficiency,Faculty of Engineering,School of Electrical Eng and Telecommunications
+PHTN4661,Optical Circuits and Fibres,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC3115
+PHTN4662,Photonic Networks,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3113,ELEC3115
 PHYS1110,Everyday Physics,Faculty of Science,School of Physics
 PHYS1111,Fundamentals of Physics,Faculty of Science,School of Physics
 PHYS1149,Physics 1A (Aviation),Faculty of Science,School of Physics
@@ -922,7 +1043,9 @@ PLAN1006,Planning Techniques & Analysis,Built Environment,Planning and Urban Dev
 PLAN1007,Development Processes: Feasibility & Finance,Built Environment,Planning and Urban Development
 PLAN1052,Quantitative Methods,Built Environment,Planning and Urban Development
 PLAN2001,Strategic Planning,Built Environment,Planning and Urban Development
+PLAN2002,GIS & Urban Informatics,Built Environment,Planning and Urban Development,PLAN1006
 PLAN2003,Urban Design,Built Environment,Planning and Urban Development
+PLAN2004,Equitable Cities,Built Environment,Planning and Urban Development,PLAN1003
 PLAN2005,Planning Law & Administration,Built Environment,Planning and Urban Development
 PLAN2006,Urban Management & Development Assessment,Built Environment,Planning and Urban Development
 PLAN2007,City Building: Transport & Infrastructure,Built Environment,Planning and Urban Development
@@ -934,14 +1057,17 @@ PLAN3004,Practice: Development,Built Environment,Planning and Urban Development
 PLAN3005,Practice: Governance & Policy,Built Environment,Planning and Urban Development
 PLAN3015,Social Planning,Built Environment,Planning and Urban Development
 PLAN3031,Integrated Planning 2 -Strategic Planning,Built Environment,Planning and Urban Development
+PLAN3032,Integrated Planning 3 - Master Planning,Built Environment,Planning and Urban Development,PLAN3031
 PLAN3041,Planning Law and Administration,Built Environment,Planning and Urban Development
 PLAN3051,Development Assessment,Built Environment,Planning and Urban Development
 PLAN3052,Qualitative Methods,Built Environment,Planning and Urban Development
 PLAN3671,Transport Land Use and Environment,Built Environment,Planning and Urban Development
 PLAN4002,Plan Making Studio,Built Environment,Planning and Urban Development
+PLAN4003,Planning Thesis,Built Environment,Planning and Urban Development,PLAN4001
 PLAN4031,Research Design,Built Environment,Planning and Urban Development,PLAN0081|PLAN0082|PLAN3032|PLAN3015
 PLAN4132,Thesis Project,Built Environment,Planning and Urban Development,PLAN4031
 PLAN4142,Professionalism Ethics and Politics,Built Environment,Planning and Urban Development,PLAN0081|PLAN0082|PLAN3032|PLAN3015
+POLY3000,Polymer Science,Faculty of Engineering,School of Chemical Engineering,CHEM2021,CEIC2004
 PSYC1001,Psychology 1A,Faculty of Science,School of Psychology
 PSYC1022,The Psychology of Addiction,Faculty of Science,School of Psychology
 PSYC1023,Abnormal Psychology,Faculty of Science,School of Psychology
@@ -956,12 +1082,14 @@ PSYC2071,Perception and Cognition,Faculty of Science,School of Psychology,PSYC10
 PSYC2081,Learning and Physiological Psychology,Faculty of Science,School of Psychology,PSYC1001|PSYC1011
 PSYC3001,Research Methods 3,Faculty of Science,School of Psychology,PSYC2001
 PSYC3011,Research and Applications of Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061|PSYC2071|PSYC2081|PSYC2101
+PSYC3051,Physiological Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2081
 PSYC3121,Social Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
 PSYC3141,Behaviour in Organisations,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
-PSYC3211,Cognitive Science,Faculty of Science,School of Psychology,PSYC2001||PSYC2071
+PSYC3211,Cognitive Science,Faculty of Science,School of Psychology,PSYC2001|PSYC2071
 PSYC3221,Vision and Brain,Faculty of Science,School of Psychology,PSYC2001|PSYC2071
+PSYC3241,Psychobiology of Memory and Motivation,Faculty of Science,School of Psychology,PSYC2001|PSYC2081
 PSYC3301,Psychology and Law,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
-PSYC3311,Language and Cognition,Faculty of Science,School of Psychology,PSYC2001||PSYC2071
+PSYC3311,Language and Cognition,Faculty of Science,School of Psychology,PSYC2001|PSYC2071
 PSYC3341,Developmental Psychology,Faculty of Science,School of Psychology,PSYC2001|PSYC2061
 PSYC3371,Multivariate Data Analysis for Psychology,Faculty of Science,School of Psychology,PSYC3001
 PSYC4073,Honours Research Project A,Faculty of Science,School of Psychology
@@ -971,6 +1099,7 @@ PSYC4103,Psychology 4B,Faculty of Science,School of Psychology
 PTRL1001,Introduction to Petroleum Engineering and Geology,Faculty of Engineering,School of Petroleum Engineering
 PTRL1010,Introduction to the Petroleum Industry,Faculty of Engineering,School of Petroleum Engineering
 PTRL2010,Business Practices in the Petroleum Industry,Faculty of Engineering,School of Petroleum Engineering
+PTRL2019,Reservoir Engineering A,Faculty of Engineering,School of Petroleum Engineering,MATH1231,MATH1241
 PTRL2020,Petrophysics,Faculty of Engineering,School of Petroleum Engineering
 PTRL2030,Field Development Geology,Faculty of Engineering,School of Petroleum Engineering
 PTRL3001,Reservoir Engineering B,Faculty of Engineering,School of Petroleum Engineering,PTRL2019
@@ -983,9 +1112,11 @@ PTRL3030,Reservoir Characterisation and Geophysics,Faculty of Engineering,School
 PTRL3040,Numerical Reservoir Simulation,Faculty of Engineering,School of Petroleum Engineering
 PTRL3050,Well Pressure Testing,Faculty of Engineering,School of Petroleum Engineering
 PTRL4011,Integrated Oil/Gas Field Evaluation "B" (Thesis),Faculty of Engineering,School of Petroleum Engineering,PTRL4010
+PTRL4012,Enhanced Oil and Gas Recovery,Faculty of Engineering,School of Petroleum Engineering,PTRL3002
 PTRL4017,Well Technology,Faculty of Engineering,School of Petroleum Engineering,PTRL3015
 PTRL4020,Natural Gas Engineering,Faculty of Engineering,School of Petroleum Engineering,PTRL3001
 PTRL4021,Petroleum Production Engineering,Faculty of Engineering,School of Petroleum Engineering,PTRL3001
+PTRL4041,Research Thesis B,Faculty of Engineering,School of Petroleum Engineering,PTRL4040
 PTRL5100,Geomechanics A,Faculty of Engineering,School of Petroleum Engineering,PTRL2019
 PTRL5119,Geothermal Engineering,Faculty of Engineering,School of Petroleum Engineering
 REGZ9075,Academic Skills 1,,www.lc.unsw.edu.au
@@ -1029,6 +1160,7 @@ SAHT3212,Art and Everyday Life,Faculty of Art & Design,School of Art & Design
 SAHT3213,Museum Studies: Exhibitions Collections and Material Culture,Faculty of Art & Design,School of Art & Design
 SAHT3216,Affect in Art and Design,Faculty of Art & Design,School of Art & Design
 SAHT3217,Socially Engaged Art,Faculty of Art & Design,School of Art & Design
+SAHT3223,Aboriginal Art Language and Culture,Faculty of Art & Design,School of Art & Design,SAHT1101,SAHT1301
 SAHT3301,Design History Theory and Aesthetics 3,Faculty of Art & Design,School of Art & Design,SAHT2301
 SAHT3613,Digital Theory and Aesthetics,Faculty of Art & Design,School of Art & Design
 SAHT3614,Screen Culture,Faculty of Art & Design,School of Art & Design
@@ -1046,6 +1178,7 @@ SART1502,Drawing,Faculty of Art & Design,School of Art & Design
 SART1581,Screen Printing,Faculty of Art & Design,School of Art & Design
 SART1591,Printmaking,Faculty of Art & Design,School of Art & Design
 SART1641,Video Art,Faculty of Art & Design,School of Art & Design
+SART2361,Advanced Etching,Faculty of Art & Design,School of Art & Design,SART1361
 SART2400,Painting and Materiality,Faculty of Art & Design,School of Art & Design
 SART2401,Painting and Technology,Faculty of Art & Design,School of Art & Design
 SART2402,Painting and the Body,Faculty of Art & Design,School of Art & Design
@@ -1068,6 +1201,7 @@ SART2501,Life Painting,Faculty of Art & Design,School of Art & Design
 SART2639,Photography: Image and Text,Faculty of Art & Design,School of Art & Design
 SART2640,Photography Fine Print Methods,Faculty of Art & Design,School of Art & Design
 SART2818,Custom Printing,Faculty of Art & Design,School of Art & Design
+SART2819,Advanced Custom Printing,Faculty of Art & Design,School of Art & Design,SART2818
 SART2828,Artists' Books,Faculty of Art & Design,School of Art & Design
 SART2829,Anatomy for Artists,Faculty of Art & Design,School of Art & Design
 SART2832,Life Drawing,Faculty of Art & Design,School of Art & Design
@@ -1131,7 +1265,11 @@ SDES3181,Designing Responsive Objects or Spaces,Faculty of Art & Design,School o
 SDES3801,Special Project,Faculty of Art & Design,School of Art & Design
 SDES4205,Information Graphics: Design & Visualising Data,Faculty of Art & Design,School of Art & Design
 SDES6779,Permaculture Design Principles Philosophy and Pra,Faculty of Art & Design,School of Art & Design
+SENG2011,Workshop on Reasoning about Programs,Faculty of Engineering,School of Computer Science and Engineering,COMP2111
 SENG3011,Software Engineering Workshop 3,Faculty of Engineering,School of Computer Science and Engineering,SENG2021
+SENG4905,Industrial Training 2,Faculty of Engineering,School of Computer Science and Engineering,SENG4904
+SENG4906,Industrial Training 3,Faculty of Engineering,School of Computer Science and Engineering,SENG4905
+SENG4907,Industrial Training 4,Faculty of Engineering,School of Computer Science and Engineering,SENG4906
 SENG4920,Ethics and Management,Faculty of Engineering,School of Computer Science and Engineering,SENG3011
 SERV9999,Tour. & Event Mgt:Sustain. the Attraction of Aust,UNSW Business School,School of Marketing
 SOCW1001,Introduction to Social Work,Faculty of Arts and Social Sciences,School of Social Sciences
@@ -1143,14 +1281,17 @@ SOLA2053,Sustainable & Renewable Energy Technologies,Faculty of Engineering, Sch
 SOLA2060,Introduction to Electronic Devices,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA3010,Low Energy Buildings and Photovoltaics,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA3020,Photovoltaic Technology and Manufacturing,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2540
+SOLA3507,Solar Cells,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2060,SOLA2540
 SOLA4012,Photovoltaic Systems Design,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2540
 SOLA4911,Thesis Part B,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA4910
 SOLA5051,Life Cycle Assessment,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA5052,Biomass,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA5053,Wind Energy Converters,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA5054,PV Stand-Alone System  Design & Installation.,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
+SOLA5055,Semiconductor Photovoltaic and Photonic Devices,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2060,SOLA2540
 SOLA5056,Sustainable Energy for Developing Countries,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOLA5057,Energy Efficiency,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
+SOLA5508,High Efficiency Silicon Solar Cells,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering,SOLA2060,SOLA2540
 SOLA5509,Fundamentals of Photovoltaic Materials Processing,Faculty of Engineering, School of the Photovoltaic and Renewable Energy Engineering
 SOMA1642,Future Screen: Speculative Media Practices,Faculty of Art & Design,School of Art & Design
 SOMA2203,Media Art in the 21st Century,Faculty of Art & Design,School of Art & Design
@@ -1205,8 +1346,16 @@ TABL3755,Taxation of Business Entities,UNSW Business School,School of Taxation a
 TABL3757,Corporate Tax Strategy,UNSW Business School,School of Taxation and Business Law,LEGT2751,TABL2751,LAWS3147
 TABL4721,Special Topic in Business Law,UNSW Business School,School of Taxation and Business Law,LEGT1710,TABL1710
 TABL4722,Special Topic in Taxation,UNSW Business School,School of Taxation and Business Law,LEGT2751,TABL2751,LAWS3147
+TELE3113,Analogue and Digital Communications,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2134
+TELE3117,Telecommunications Engineering Design,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2133
+TELE3118,Network Technologies,Faculty of Engineering,School of Electrical Eng and Telecommunications,ELEC2142
+TELE3119,Trusted Networks,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3118
 TELE4121,Thesis - Part B (Telecommunications Engineering),Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE4120
 TELE4123,Telecommunications Design Proficiency,Faculty of Engineering,School of Electrical Eng and Telecommunications
+TELE4642,Network Performance,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3118
+TELE4651,Wireless Communication Technolgies,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3113
+TELE4652,Mobile and Satelllite Communications Systems,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3113
+TELE4653,Digital Modulation and Coding,Faculty of Engineering,School of Electrical Eng and Telecommunications,TELE3113
 VISN1101,Seeing the World: Perspectives from Vision Science,Faculty of Science,School of Optometry and Vision Science
 VISN1111,Geometrical & Physical Optics,Faculty of Science,School of Optometry and Vision Science
 VISN1211,Vision Science 1,Faculty of Science,School of Optometry and Vision Science,BIOS1201,BABS1201
@@ -1248,6 +1397,7 @@ ZBUS4102,Business Research 2 (Honours),UNSW Canberra at ADFA,School of Business 
 ZEIT1101,Computational Problem Solving,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT1102,Introduction to Programming,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1101
 ZEIT1110,Computer Games,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT1206,Design of Electronic Circuits 1,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1208|ZPEM1303
 ZEIT1208,Introduction to Electrical Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT1501,Engineering Practice & Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT1503,Engineering Mechanics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
@@ -1261,6 +1411,7 @@ ZEIT2104,Computers and Security,UNSW Canberra at ADFA,School of Engineering & In
 ZEIT2105,Systems Analysis and Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2106,Digital Forensics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT2207,Design of Electronic Circuits 2,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1206,ZEIT1291
+ZEIT2208,Programmable Digital Systems,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1208
 ZEIT2209,Principles of Electrical Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1206|ZPEM1304
 ZEIT2301,Solution Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1302
 ZEIT2306,Service Design,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1302
@@ -1290,8 +1441,10 @@ ZEIT3120,Programming for Security,UNSW Canberra at ADFA,School of Engineering & 
 ZEIT3121,Securing Networks,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3215,Signals and Systems,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2207|ZPEM2309|ZPEM2310
 ZEIT3216,Design of Electronic Circuits 3,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2207
+ZEIT3218,Communications Techniques,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3215|ZPEM2309|ZPEM2310
 ZEIT3220,Engineering Electromagnetics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZPEM2502|ZPEM2309|ZPEM2310
 ZEIT3221,Digital Signal Processing and Control,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT3215|ZEIT3222
+ZEIT3222,Control Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZPEM2309|ZPEM2310
 ZEIT3302,Software Project Management,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3308,The E-Warrior,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3404,Simulation,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1101
@@ -1299,6 +1452,7 @@ ZEIT3405,Problem Structuring Techniques,UNSW Canberra at ADFA,School of Engineer
 ZEIT3406,Quantitative Operations Research,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2403
 ZEIT3500,Engineering Structures,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2504
 ZEIT3501,Engineering Materials,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT3502,Vibration and Control Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZPEM2309|ZPEM2310
 ZEIT3504,Aircraft and Systems Design 1,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT3505,Flight Dynamics and Aircraft Control,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2502
 ZEIT3600,Structural Analysis,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT2504
@@ -1346,6 +1500,7 @@ ZEIT4216,Occasional Option 2,UNSW Canberra at ADFA,School of Engineering & Infor
 ZEIT4217,Occasional Option 3,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4218,Occasional Option 4,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4222,Systems Engineering,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
+ZEIT4224,Electrical Power Machines and Power Electronics,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA,ZEIT1206|ZEIT3215
 ZEIT4225,Satellite Communications,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4226,Digital Image Processing and Enhancement,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
 ZEIT4227,Radar Techniques and Applications,UNSW Canberra at ADFA,School of Engineering & Information Technology @ UNSW Canberra at ADFA
@@ -1500,7 +1655,11 @@ ZPEM3306,Waves and Fluids,UNSW Canberra at ADFA,School of Physical Environmental
 ZPEM3311,Mathematical Methods for Differential Equations,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2311
 ZPEM3312,Methods for Data Analysis,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2302
 ZPEM3313,Applied Nonlinear Dynamics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
-ZPEM3401,Ocean Circulation and Mixing.,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2401||ZPEM2506
+ZPEM3401,Ocean Circulation and Mixing.,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2401|ZPEM2506
+ZPEM3404,Ocean Waves and Modelling,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2401|ZPEM2506
+ZPEM3501,Dynamics of Weather and Climate,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2506
+ZPEM3503,Advanced Materials,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2502|ZPEM2506
+ZPEM3528,Nuclear Physics,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA,ZPEM2502|ZPEM2506
 ZPEM3532,Advanced Topics in Physics and Oceanography,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
 ZPEM4001,Science Honours Research 1,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
 ZPEM4002,Science Honours Research 2,UNSW Canberra at ADFA,School of Physical Environmental and Mathematical Sciences @ UNSW Canberra at ADFA
