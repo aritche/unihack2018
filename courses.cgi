@@ -2,6 +2,7 @@
 
 # Import modules for CGI handling
 import cgi 
+import re
 
 base_url="test"
 courses=[]
@@ -49,6 +50,7 @@ def main():
 				marks[-1] = marks[-1].replace('"', '')
 
 	getInfo()
+	filterCourses()
 	searchBar()
 
 	if searched == True:
@@ -60,6 +62,16 @@ def main():
 	</body>
 	</html>
 	"""
+
+# filter courses in the course list to existing courses
+def filterCourses():
+	newCourses = []
+	for course in courses:
+		course = course.upper()
+		if not re.match(r"^[A-Z]{4}[0-9]{4}$", course):
+			continue	
+		newCourses.append(course)
+	courses[:] = newCourses
 
 # given a list of db records, sort them by rank
 def rankCourses(records):
