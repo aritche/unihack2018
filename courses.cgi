@@ -22,6 +22,28 @@ def main():
             <link rel="stylesheet" href="courses.css" type="text/css"></style>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/jc/bootstrap.min.js"></script>
+		
+		<script>
+			function removeCourse(name){
+				courses = document.getElementById('courseHidden').value;
+				marks = document.getElementById('markHidden').value;
+				courses = courses.split(',')
+				marks = marks.split(',')
+				for (var i = 0; i < courses.length; i++){
+					if (courses[i] == name){
+						courses.splice(i,1)
+						marks.splice(i,1)
+					}
+				}
+				document.getElementById('courseHidden').value = courses.join(",");
+				document.getElementById('markHidden').value = marks.join(",");
+				document.getElementById(name).remove();
+				console.log(document.getElementById('courseHidden').value)
+				console.log(document.getElementById('markHidden').value)
+				document.getElementById(name).remove();
+				
+			}
+		</script>
         </head>
 	<body>
 	"""
@@ -133,9 +155,10 @@ def printSelectedCourses():
                     <tbody>
         """
 	for x in range(0,len(courses)):
-                print "<tr>"
+                print "<tr id='" + courses[x] + "'>"
                 print "<td>" + marks[x] + "</td>"
 		print "<td>" + courses[x] + "</td>"
+		print "<td><button style='background-color: #ff7a7a; border: 0.5px solid black; font-size: 10px; padding-left: 3px; padding-right: 3px; color: white; text-align: center; display: inline-block;'onclick=\"removeCourse('" + courses[x] + "');\">Remove</button></td>"
                 print "</tr>"
 	print "</tbody>"
         print "</table>"
@@ -306,8 +329,8 @@ def searchBar():
 				</select>
 				<button class="btn btn-success" type="submit" value="Add">Add</button>
 	"""
-	print "<input type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
-	print "<input type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
+	print "<input id='courseHidden' type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
+	print "<input id='markHidden' type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
 	print """
 			</form>
 		</nav>
