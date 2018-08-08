@@ -37,7 +37,14 @@ def main():
 				}
 				document.getElementById('courseHidden').value = courses.join(",");
 				document.getElementById('markHidden').value = marks.join(",");
-				document.getElementById(name).remove();
+
+				// Remove results
+				//var is = document.getElementsByClassName(name);
+				//console.log(is)
+				//while (is[0]){
+				//	is[0].parentNode.removeChild(is[0]);
+				//}
+
 				console.log(document.getElementById('courseHidden').value)
 				console.log(document.getElementById('markHidden').value)
 				document.getElementById(name).remove();
@@ -187,7 +194,7 @@ def getRecords():
 
 	for item in possible[0]:
                 splitItem=item.split(',')
-                print "<tr>"
+                print "<tr class='" + splitItem[0] + "'>"
 		print "<td><a href='http://www.handbook.unsw.edu.au/undergraduate/courses/2018/" + splitItem[0] + ".html'>"+ splitItem[0] + "</a></td>"
 		print "<td>" + splitItem[1] + "</td>"
                 print "<td>"
