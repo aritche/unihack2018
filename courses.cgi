@@ -66,12 +66,15 @@ def main():
 # filter courses in the course list to existing courses
 def filterCourses():
 	newCourses = []
+
 	for course in courses:
 		course = course.upper()
 		if not re.match(r"^[A-Z]{4}[0-9]{4}$", course):
 			continue	
 		newCourses.append(course)
-	courses[:] = newCourses
+	
+	# remove duplicates and assign
+	courses[:] = list(set(newCourses))
 
 # given a list of db records, sort them by rank
 def rankCourses(records):
@@ -287,12 +290,12 @@ def getFuturePossibleCourses():
 def searchBar():
         print """
                 <div class="container">
-                <div class="jumbotron">
+                <div style="margin: 0;" class="jumbotron">
                     <h1>Clever Course</h1>
                 </div>
                 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 			<p style="font-size: 18px;">Please enter courses you have completed:</p>
-			<form class="form-inline" id="search-form">
+			<form class="form-inline" id="search-form" autocomplete="off" autocorrect="off">
 				<input class="form-control mr-sm-2 type="text" name="searched_for" placeholder="Subject Code">
 				<select name="mark">
 					<option value="HD">HD</option>
