@@ -77,6 +77,9 @@ def main():
 				prevMarks = form["prevMarks"].value
 				marks.extend(prevMarks.split(','))
 				marks[-1] = marks[-1].replace('"', '')
+		else:
+			for course in courses:
+				marks.append("HD")
 
 	getInfo()
 	filterCourses()
@@ -155,7 +158,7 @@ def printSelectedCourses():
                 <table class="table table-dark table-hover">
                     <thead>
                         <tr>
-                            <th>Marks</th>
+                            <!--- <th>Marks</th> --->
                             <th>Course</th>
                         </tr>
                     </thead>
@@ -163,7 +166,7 @@ def printSelectedCourses():
         """
 	for x in range(0,len(courses)):
                 print "<tr id='" + courses[x] + "'>"
-                print "<td>" + marks[x] + "</td>"
+                #print "<td>" + marks[x] + "</td>"
 		print "<td>" + courses[x] + "</td>"
 		print "<td><button style='background-color: #ff7a7a; border: 0.5px solid black; font-size: 10px; padding-left: 3px; padding-right: 3px; color: white; text-align: center; display: inline-block;'onclick=\"removeCourse('" + courses[x] + "');\">Remove</button></td>"
                 print "</tr>"
@@ -318,30 +321,36 @@ def getFuturePossibleCourses():
 		return [[], []]
 
 def searchBar():
-        print """
-                <div class="container">
-                <div style="margin: 0;" class="jumbotron">
-                    <h1>Clever Course</h1>
-                </div>
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-			<p style="font-size: 18px;">Please enter courses you have completed:</p>
-			<form class="form-inline" id="search-form" autocomplete="off" autocorrect="off">
-				<input class="form-control mr-sm-2 type="text" name="searched_for" placeholder="Subject Code">
-				<select name="mark">
-					<option value="HD">HD</option>
-					<option value="D">D</option>
-					<option value="C">C</option>
-					<option value="P">P</option>
-					<option value="FAIL">Fail</option>
-				</select>
-				<button class="btn btn-success" type="submit" value="Add">Add</button>
+	print """
+		<div class="container">
+			<div style="margin: 0;" class="jumbotron">
+				<h1>Clever Course</h1>
+			</div>
+	"""
+
+	print """
+		<form class="form-inline" id="search-form" autocomplete="off" autocorrect="off">
+			<p style="font-size: 16px;">Please enter courses you have completed:</p>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Subject code" name="searched_for">
+				<span class="input-group-btn">
+					<button class="btn btn-secondary btn-success" type="submit" value="Add">Add</button>
+				</span>
+			</div>
+
+	"""
+	"""
+			<select name="mark">
+				<option value="HD">HD</option>
+				<option value="D">D</option>
+				<option value="C">C</option>
+				<option value="P">P</option>
+				<option value="FAIL">Fail</option>
+			</select>
 	"""
 	print "<input id='courseHidden' type='hidden' name='prevCourses' value='" + (",").join(courses) + "'>"
 	print "<input id='markHidden' type='hidden' name='prevMarks' value='" + (",").join(marks) + "'>"
-	print """
-			</form>
-		</nav>
-                </div>
-	"""
+	print "</form>"
+	print "</div>"
 
 main()
